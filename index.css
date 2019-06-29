@@ -1,25 +1,69 @@
+/*red #bd0912*/
+/*blue#2460b9*/
 body{
 	padding:0px 100px;
 }
+.main{
+	border:0.9px solid grey;
+	box-shadow: 2px solid;
+	padding-bottom:0px;
+}
+
+.btn-primary{
+	background-color:#2460b9 !important;
+}
 .tw{
 	color: white;
+}
+.tc{
+	text-align:center;
 }
 .container-fluid{
 	padding-bottom:2rem;
 	padding-top:1.1rem;
 }
 .lang-bar{
-	background-color:blue;
 	max-width:100% !important;
 }
+
+.carousel-inner {
+  height: 50vh ;
+}
+.car-img{
+	width:100%;
+	height:440px;
+}
+.carousel-container{
+	padding-bottom: 2rem;
+}
+.heading{
+	color:#2460b9;
+	font-weight: bold;
+	font-size:30px
+}
+.sub-heading{
+	background-color:#bd0912;
+	color:white;
+	font-weight: bold;
+	font-size:25px;
+}
+.news{
+	color:#2460b9;;
+	border:0.9px solid grey;
+	box-shadow:1px 1px grey;
+	border-radius:6px;
+	margin-bottom:12px;
+
+}
+.padding{
+	padding:1rem 1rem;
+}
+
 .group-1{
 	display:flex;
 }
-.logo{
-	/*flex:3;*/
-}
-.logo-text{
-	/*flex:3;*/
+.container-car{
+	padding-bottom: 2rem;
 }
 .carousel-caption{
 	position:absolute;
@@ -27,11 +71,14 @@ body{
 	transform:translateY(-50%);
 }
 .recent-news{
-	padding:1.5rem 2rem;
-	background-color: #1b9b78;
+	padding:0.8rem 0.8rem;
+	background-color: #bd0912;
 }
 .container-card{
 	padding:1rem 1rem;
+}
+.side-box{
+	border:0.9px solid grey;
 }
 .bordering{
 	border:0.9px solid grey;
@@ -40,14 +87,18 @@ body{
 }
 .content{
 	background-color: black;
-	padding:1rem 1rem;
-	padding-bottom: 1.2rem;
-}
-.three-col{
-	padding-bottom:2rem;
 }
 .social-links{
-	background-color: #0D0D0D;
-	max-width: 100%;
-	padding:0.2rem 0.2rem;
+	background-color: #080808;
+}
+.footer{
+	background-color: #0c0c0c;
+}
+.fa{
+	padding:2px;
+	font-size:30px;
+	text-align:center;
+	text-decoration:none;
+	border-radius: 10px;
+	width: 30px;
 }
