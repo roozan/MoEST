@@ -34,14 +34,14 @@
 
 	<!-- Main Navbar -->
 
-		<nav class="navbar navbar-expand-lg" style="background-color:#bd0912">
+		<nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#bd0912">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
 					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
 				 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						    <ul class="navbar-nav mr-auto">
+						    <ul class="navbar-nav mr-auto ">
 							      <li class="nav-item active">
 							       	<a class="nav-link tw" href="#">Home <span class="sr-only">(current)</span></a>
 							      </li>
@@ -55,13 +55,13 @@
 									        </div>
 							    	</li>
 							    	<li class="nav-item">
-							        	<a class="nav-link tw" href="#">Program & Progress</a>
+							        	<a class="nav-link " href="#">Program & Progress</a>
 							     	</li>
 							     	<li class="nav-item">
-							        	<a class="nav-link tw" href="#">Progress & Achievement</a>
+							        	<a class="nav-link" href="#">Progress & Achievement</a>
 							     	</li>
 							     	<li class="nav-item dropdown">
-								        <a class="nav-link dropdown-toggle tw" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications
+								        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications
 								        </a>
 								        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								          <a class="dropdown-item" href="#">Action</a>
@@ -71,10 +71,10 @@
 								        </div>
 								    </li>
 							        <li class="nav-item">
-							        	<a class="nav-link tw" href="#">Gallery</a>
+							        	<a class="nav-link " href="#">Gallery</a>
 							     	</li>
 							        <li class="nav-item dropdown">
-								        <a class="nav-link dropdown-toggle tw" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages
+								        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages
 								        </a>
 								        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								          <a class="dropdown-item" href="#">Action</a>
@@ -84,12 +84,12 @@
 								        </div>
 								    </li>
 							        <li class="nav-item">
-							        	<a class="nav-link tw" href="#">Contact</a>
+							        	<a class="nav-link " href="#">Contact</a>
 							     	</li>
 						    </ul>
 							    <form class="form-inline my-2 my-lg-0">
-							      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-							      <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+							      <input class="form-control-sm mr-sm-2 col-md-6" type="search" placeholder="Search" aria-label="Search">
+							      <button class="btn btn-primary btn-sm" type="submit"><i class="fa fa-search"></i></button>
 							    </form>
 					</div>
 			</nav>
@@ -122,10 +122,30 @@
 
 	<!-- Recent News -->
 
-	<div class ="container-fluid recent-news">
-		<h6 class = "display-5 text-white">RECENT NEWS |</h6>
-		<a class="text-white" href=""><p>बेरोजगारलाई रोजगार बनाउन सुरु गरिएको प्रधानमन्त्री रोजगार कार्यक्रम सोचेअनुसार प्रभावकारी हुन सकेको छैन ।
-		</p></a>
+	<div class ="recent-news padding">
+		<h6 class = "display-5 text-white">RECENT NEWS </h6>
+
+			<div id="carouselExampleIndicators" class="carousel slide car-t" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <a class=" carousel-caption tw" href=""><p>बेरोजगारलाई रोजगार बनाउन सुरु गरिएको प्रधानमन्त्री रोजगार कार्यक्रम सोचेअनुसार प्रभावकारी हुन सकेको छैन ।
+							</p></a>
+					    </div>
+					    <div class="carousel-item">
+					     <a class=" carousel-caption tw" href=""><p>बेरोजगारलाई रोजगार बनाउन सुरु गरिएको प्रधानमन्त्री रोजगार कार्यक्रम सोचेअनुसार प्रभावकारी हुन सकेको छैन ।
+							</p></a>
+					    </div>
+					    <div class="carousel-item">
+					      <a class=" carousel-caption tw" href=""><p>बेरोजगारलाई रोजगार बनाउन सुरु गरिएको प्रधानमन्त्री रोजगार कार्यक्रम सोचेअनुसार प्रभावकारी हुन सकेको छैन ।
+							</p></a>
+					    </div>
+					  </div>
+		</div>
 	</div>
 
 	<!-- Members -->
@@ -291,7 +311,7 @@
 						<div class="padding" style="background-color:red">
 							<img src="img/gender1.png" height="100px" width="100px">
 								<div class="card-body">
-									<h5 class="card-title text-center tw">Information of gender</h5>
+									<h5 class="card-title tc tw">Information of gender</h5>
 									<a class="tw card-text tc" href="">Redirect other websites	</a>
 								</div>
 						</div>
