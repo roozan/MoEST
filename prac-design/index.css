@@ -1,0 +1,109 @@
+/*red #bd0912*/
+/*blue#2460b9*/
+body{
+	padding:0px 100px;
+}
+.main{
+	border:0.9px solid grey;
+	box-shadow: 2px solid;
+	padding-bottom:0px;
+}
+.btn-primary{
+	background-color:#2460b9 !important;
+}
+.tw{
+	color: white;
+}
+.tc{
+	text-align:center;
+}
+.container-fluid{
+	padding-bottom:2rem;
+	padding-top:1.1rem;
+}
+.lang-bar{
+	max-width:100% !important;
+}
+.car-t{
+	 height: 70px;
+}
+.ind{
+	position: relative;
+	top:30%;
+	transform: translateY(-30%);
+}
+.carousel-inner {
+  height: 50vh ;
+}
+.car-img{
+	width:100%;
+	height:440px;
+}
+.carousel-container{
+	padding-bottom: 2rem;
+}
+.heading{
+	color:#2460b9;
+	font-weight: bold;
+	font-size:30px
+}
+.sub-heading{
+	background-color:#bd0912;
+	color:white;
+	font-weight: bold;
+	font-size:25px;
+}
+.news{
+	color:#2460b9;;
+	border:0.9px solid grey;
+	box-shadow:1px 1px grey;
+	border-radius:6px;
+	margin-bottom:12px;
+
+}
+.padding{
+	padding:1rem 1rem;
+}
+
+.group-1{
+	display:flex;
+}
+.container-car{
+	padding-bottom: 2rem;
+}
+.carousel-caption{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+}
+.recent-news{
+	background-color: #bd0912;
+}
+.container-card{
+	padding:1rem 1rem;
+}
+.side-box{
+	border:0.9px solid grey;
+}
+.bordering{
+	border:0.9px solid grey;
+	box-shadow:1px 1px grey;
+	padding:1rem 1rem;
+}
+.content{
+	background-color: black;
+}
+.social-links{
+	background-color: #080808;
+}
+.footer{
+	background-color: #0c0c0c;
+}
+.fa{
+	padding:2px;
+	font-size:30px;
+	text-align:center;
+	text-decoration:none;
+	border-radius: 10px;
+	width: 30px;
+}
