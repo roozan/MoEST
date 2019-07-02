@@ -23,6 +23,7 @@ html,body{
 
 .container-news{
 	background-image:url('img/bg.jpg');
+
 }
 .container-second{
 	background-image:url('img/bg3.jpg');
@@ -34,13 +35,10 @@ html,body{
 .card-sm{
 	font-size:0.6rem;
 }
-.nav-item, .dropdown-item{
-	font-size:1.0rem;
-}
 .dropdown-item:hover {
 	background-color:#B34006 !important;
 	color:white !important;
-	font-size:1rem;
+	font-size:1.1rem;
 }
 .small-font{
 	font-size:0.8rem;
@@ -67,7 +65,6 @@ html,body{
   padding: 0.2rem;
 }
 .conv-portal{
-	background-image:url('img/convocation.png');
 	height:35vh;
 }
 .cards{
