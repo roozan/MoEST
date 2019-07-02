@@ -99,11 +99,8 @@ body{
 .footer{
 	background-color: #0c0c0c;
 }
-.fa{
-	padding:2px;
-	font-size:30px;
-	text-align:center;
-	text-decoration:none;
-	border-radius: 10px;
-	width: 30px;
+.fa {
+    background: #ffc0c0;
+    padding:30px;
+    border-radius: 50%;
 }
