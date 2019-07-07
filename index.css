@@ -91,12 +91,6 @@
   display:flex;
   justify-content: center;
 }
-
-.row-equal .card {
-   width: 100%;
-}
-
-/* ensure equal card height inside carousel */
 .carousel-inner>.row-equal.active, 
 .carousel-inner>.row-equal.next, 
 .carousel-inner>.row-equal.prev {
