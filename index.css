@@ -1,12 +1,14 @@
 /*#25396c blue*/
 /*#E57F35 orange*/
 @media only screen and (min-width: 1200px) {
+  .pt-img{padding-top:8em;}
   .pt-high{ padding-top: 9.3em;}
   .footer-container{ background:url('img/footer-bg.png') no-repeat; background-size:100% 100%; }
   .mq{padding-top: 9.3em;}
   .bold-text{padding:3em;}
 }
 @media only screen and (max-width: 1200px) {
+  .pt-img{padding-top:7em;}
   .pt-high{padding-top:6em;}
   .footer-container{background-color:#4B9EFA;}
   .mq{padding:1.6em;}
@@ -15,8 +17,9 @@
   .about-container{background: url("img/curve-about.png") no-repeat;background-size:contain;}
   .articles-container{background:url('img/curve-research.png') no-repeat;background-size:contain;}
    .gallery-container{background:url("img/curve-gallery.png") no-repeat;background-size:contain;}
+  .pt-img{padding-top: 12em;}
   .pt-high{ padding-top: 8.6em;} 
-   .wrap-up-container{ background:url("img/wrap-up.png") no-repeat;background-size: 100% 100%; background-position: center}
+  .wrap-up-container{ background:url("img/wrap-up.png") no-repeat;background-size: 100% 100%; background-position: center}
 }
 @media only screen and (min-width: 962px) { 
   .about-container{background: url("img/curve-bg.png") no-repeat;background-size:contain;}
@@ -29,6 +32,7 @@
   }
   @media only screen and (max-width: 600px) {
   .fa { font-size:20px !important; }
+  .pt-img{padding-top: 6.8em;}
   .pt-high{padding-top:2.4em;}
   }
   .lang-bar{
