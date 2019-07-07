@@ -3,14 +3,19 @@
 <head>
 	<title>Ministry of Education Science and Technology</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 </head>
 <body>
+	<!-- Language-bar -->
+	<div class = "lang-bar" align="right">
+			<a href="#" >🇺🇸</a>
+			<a href="#" >🇳🇵</a>
+		</div>
+
 	<!-- Logo and Navbar -->
 		<div class="container-fluid">
 			<div class="row">
@@ -50,9 +55,6 @@
 										          <a class="dropdown-item" href="#">Something else here</a>
 									        </div>
 							    	</li>
-							    	<li class="nav-item">
-							        	<a class="nav-link " href="#">TU Authorities</a>
-							     	</li>
 							     	<li class="nav-item dropdown">
 								        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications
 								        </a>
@@ -119,7 +121,7 @@
 		<!-- Header Section -->
 			<div class="container-fluid text-center text-primary" style="padding-top:2.1em">
 				<h3 class="display-5 font-weight-bold">Campus Life in Tribhuvan University</h3>
-				<p class="display-6" style="padding:0rem 12.3em">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p class="display-6" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -128,6 +130,7 @@
 
 
 		<!-- Carousel and Search Box -->
+			<div class="py-2">
 				<div class="carousel-container">
 					  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 							  <div class="carousel-inner">
@@ -151,48 +154,140 @@
 							  </a>
 						</div>
 						<div class="carousel-caption d-none d-md-block">
-					          <h4 class="pb-3">Search websites locations and people</h4>
-					          	<div align="center">
+					          <h4 class="pb-2">Search websites locations and people</h4>
+					          	<div class="mb-5" align="center">
 											  <input type="text" class="circular-input-box p-2" placeholder="Search for course?" style="width:500px">
 											    <span class="circular-input-box btn btn-primary" ><i class="fa fa-search text-white"></i></span>
 								  </div>
 							</div>
 				</div>
+			</div>
 
 	<!-- Recent News -->
 		<div class="container-fluid recent-news-container">
-			<h3 class="headings">NEWS AND EVENTS</h3>
-				<div class="row">
-					<div class="col-md-12 col-lg-6 mb-3">
-						<div class="card shadow p-3">
-								  <div class="card-body">
-									    <a class="card-title display-6 mb-4" href="">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</a>
-									    <h6 class="card-subtitle mb-2 text-muted">Published on July 1, 2019</h6>
-									    <p class="card-text small-font" >काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
-									    <a href="#" class="card-link">Read more</a>
-								  </div>
-						</div>
+		    	<div class="row">
+		    		<div class="col-12 col-lg-9 mb-4">
+						<div class="carousel slide" data-ride="carousel" id="postsCarousel">
+						    <div class="container mb-2">
+						        <div class="row">
+						        	<div class="col-10 text-white">
+						        		<h4>NEWS | <a href="" class="white-link">All News</a></h4>
+						        	</div>
+						            <div class="col-2">
+						                <a class="btn btn-primary" href="#postsCarousel" role="button" data-slide="prev"><i class="fa fa-chevron-left carousel-control"></i></a>
+						                <a class="btn btn-primary" href="#postsCarousel" role="button" data-slide="next"><i class="fa fa-chevron-right carousel-control"></i></a>
+						            </div>
+						        </div>
+						    </div>
+						    <div class="container p-t-0  carousel-inner">
+						        <div class="row row-equal carousel-item active">
+						            <div class="col-md-4 mb-2">
+						                <div class="card p-2">
+										    <h6 class="card-subtitle my-3 text-muted">Published on July 1, 2019</h6>
+					                        <h6 style="color:#E57F35">उपसचिव स्तरका अधिकृतहरुको सेवाकालिन तलिममा सहभागि हुन निबेदन दिने बारे</h6>
+					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem </div>
+					                        <div align="right">
+						                        <button class="btn btn-primary btn-sm">View More</button>
+						                    </div>
+						                </div>
+					            	</div>
+						            <div class="col-md-4">
+						               <div class="card p-2 mb-2">
+										    <h6 class="card-subtitle my-3 text-muted">Published on January 3, 2019</h6>
+					                        <h6 style="color:#E57F35">शैक्षिक वर्ष २०७५/७६ मा एमबिबिएस र बिडिएसका लागि  शुल्क बृद्धि नगर्ने सम्बन्धी नेपाल…  </h6>
+					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore</div>
+					                        <div align="right">
+						                        <button class="btn btn-primary btn-sm">View More</button>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="col-md-4 mb-2">
+						               <div class="card p-2">
+										    <h6 class="card-subtitle my-3 text-muted">Published on March 2, 2019</h6>
+					                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</h6>
+					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore</div>
+					                        <div align="right">
+						                        <button class="btn btn-primary btn-sm">View More</button>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="row row-equal carousel-item">
+						            <div class="col-md-4 mb-2">
+						                <div class="card p-2">
+										    <h6 class="card-subtitle my-3 text-muted">Published on May 1, 2019</h6>
+					                        <h6 style="color:#E57F35">विश्व शिक्षक दिवस, २०१८ का अवसरमा माननीय शिक्षा, विज्ञान तथा प्रविधि मन्त्री गिरीराजमण</h6>
+					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id.</div>
+					                        <div align="right">
+						                        <button class="btn btn-primary btn-sm">View More</button>
+						                    </div>
+						                </div>
+						            </div>
+						           <div class="col-md-4 mb-2">
+						                <div class="card p-2">
+										    <h6 class="card-subtitle my-3 text-muted">Published on July 1, 2019</h6>
+					                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</h6>
+					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id.</div>
+					                        <div align="right">
+						                        <button class="btn btn-primary btn-sm">View More</button>
+						                    </div>
+						                </div>
+						            </div>
+						           <div class="col-md-4 mb-2">
+						                <div class="card p-2">
+										    <h6 class="card-subtitle my-3 text-muted">Published on July 1, 2019</h6>
+					                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</h6>
+					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id.</div>
+					                        <div align="right">
+						                        <button class="btn btn-primary btn-sm">View More</button>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+					    	</div>
+					    </div>
 					</div>
-					<div class="col-md-12 col-lg-6 mb-3">
-						<div class="card shadow p-3">
-								  <div class="card-body">
-									    <a class="card-title display-6" href="">त्रिवि र राजयोग शिक्षा तथा अनुसन्धान संस्थाविच सम्झौता ।</a>
-									    <h6 class="card-subtitle mb-2 text-muted">Published on July 1, 2019</h6>
-									    <p class="card-text small-font">काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
-									    <a href="#" class="card-link">Read more</a>
-								  </div>
-						</div>
+					<div class="col-12 col-lg-3">
+						<div class="container">
+					        <div class="row">
+					        	<div class="col-12 ">
+					        		<h4 class="text-white">EVENTS | <a href="" class="white-link">All events</a></h4>
+					        		<div class="pt-4">
+						        		<div class="card p-2">
+						        			<div class="row m-1 pb-1">
+						        				<div class="col-3 text-white text-center py-3" style="background-color:#25396C ;border-radius:50%">
+						        					<h5 class="small-font">02 Aug</h5>
+						        				</div>
+						        				<div class="col-9">
+						        					<h6>सबैका लागि शिक्षा समीक्षात्मक प्रतिवेदन २००१-१५</h6>
+						        				</div>
+						        				<h6 class="pt-2 small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.onsectetur </h6>
+						        			</div>
+						        			<div class="row m-1">
+						        				<div class="col-3 text-white text-center py-3" style="background-color:#25396C ;border-radius:50%">
+						        					<h5 class="small-font">12 Dec</h5>
+						        				</div>
+						        				<div class="col-9">
+						        					<h6 class="">बैदेशिक अध्ययन तालिममा सहभागि हुन निवेदन दिने बारे</h6>
+						        				</div>
+						        				<h6 class="pt-2 small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+						        			</div>
+						               </div>
+							          </div>
+					        	</div>
+					        </div>
+					    </div>
 					</div>
 				</div>
-			</div>
+		</div>
 
 	<!--About TU -->
 		<div class="container-fluid about-container">
-			<div class="row">
-					<div class="col-lg-5 pt-my">
-						<img class="img-fluid" src="img/mountain.jpg" height="720px" width="720px">
+			<div class="row pt-high">
+					<div class="col-lg-5">
+						<img class="img-fluid" src="img/mountain.jpg">
 					</div>
-					<div class="col-lg-7 pt-my">
+					<div class="col-lg-7">
 							<p class="small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -211,7 +306,9 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<button class="btn btn-primary btn-sm" type="button">Read More</button>
+							<div align="center">
+								<button class="btn btn-primary btn-sm" type="button">Read More</button>
+							</div>
 						</div>
 			</div>
 		</div>
@@ -219,26 +316,24 @@
 	<!-- Research and Articles	 -->
 
 		<div class="container-fluid articles-container">
-			<div class="research-icons">
 				<div class="row text-white text-center">
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<a class="fa fa-lightbulb-o" href=""style="font-size:59px;color:#25396c"></a>
-						<h6>Admission Portal</h6>
+					<div class="col-3">
+						<a class="fa fa-lightbulb-o" href=""style="font-size:49px;color:#25396c"></a>
+						<h6 class="sm-font">Admission Portal</h6>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<a class="fa fa-file" href=""style="font-size:50px;color:#25396c"></a>
+					<div class="col-3">
+						<a class="fa fa-file" href=""style="font-size:40px;color:#25396c"></a>
 						<h6>Result Portal</h6>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<a class="fa fa-file-text" href=""style="font-size:50px;color:#25396c"></a>
-						<h6>Marksheet Portal</h6>
+					<div class="col-3">
+						<a class="fa fa-file-text" href=""style="font-size:40px;color:#25396c"></a>
+						<h6 class="sm-font">Marksheet Portal</h6>
 					</div>
-					<div class="col-lg-3  col-md-3 col-sm-3">
-						<a class="fa fa-user" href=""style="font-size:50px;color:#25396c"></a>
+					<div class="col-3">
+						<a class="fa fa-user" href=""style="font-size:40px;color:#25396c"></a>
 						<h6>Student Portal</h6>
 					</div>
 				</div>
-			</div>
 			<div class="row pt-high">
 				<div class="col-lg-4">
 					<p class="small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -260,7 +355,7 @@
 								  <input type="text" class="form-control" placeholder="Search for article">
 								    <span class="btn btn-primary"><i class="fa fa-search text-white"></i></span>
 						  	</div>	
-							  	<div class="row py-3 mx-5">
+							  	<div class="row py-3">
 							  		<div class="col-lg-4 col-sm-4 col-md-4">
 									  	<div class="card text-left" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/article-1.jpeg" alt="Card image cap">
@@ -289,26 +384,24 @@
 	<!-- Gallery	 -->
 
 		<div class="container-fluid gallery-container">
-			<div class="research-icons">
 				<div class="row text-white text-center">
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<h5 style="color:#E57F35">15,00</h5>
-						<h6>Affiliation</h6>
+					<div class="col-3">
+						<h5 class="circle text-center p-1" >15,00</h5>
+						<h6 class="">Affiliation</h6>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<h5 style="color:#E57F35">13,00,000</h5>
+					<div class="col-3">
+						<h5 class="circle text-center p-1">13,00</h5>
 						<h6>Graduates</h6>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<h5 style="color:#E57F35">1200</h5>
+					<div class="col-3">
+						<h5 class="circle  text-center p-1">1200</h5>
 						<h6>Faculty/Staff</h6>
 					</div>
-					<div class="col-lg-3  col-md-3 col-sm-3">
-						<h5 style="color:#E57F35">23,000</h5>
+					<div class="col-3">
+						<h5 class="circle text-center p-1">23,000</h5>
 						<h6>Current Staffs</h6>
 					</div>
 				</div>
-			</div>
 			<div class="row pt-high">
 				<div class="col-lg-4">
 					<p class="small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -326,7 +419,7 @@
 				</div>
 				<div class="col-lg-8">
 					<div align="center">
-							  	<div class="row py-3 mx-5">
+							  	<div class="row py-3">
 							  		<div class="col-lg-4 col-sm-4 col-md-4">
 									  	<div class="card text-left" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/graduation.jpg" alt="Card image cap">
@@ -347,7 +440,7 @@
 									</div>
 								</div>
 
-								<div class="row py-3 mx-5">
+								<div class="row py-3">
 							  		<div class="col-lg-4 col-sm-4 col-md-4">
 									  	<div class="card text-left" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/graduates.jpg" alt="Card image cap">
@@ -386,22 +479,22 @@
 			</div>
 		</div>
 
-	<!-- Wrap up Section			 -->
+	<!-- Wrap up Section	 -->
 
 		<div class="container-fluid wrap-up-container">
-			<h4 class="text-center py-5" style="color:#25396c">Daily and published notices for all the students</h4>
-				<div class="flex-container pb-3">
+			<h2 class="text-center font-weight-bold bold-text" style="color:#25396c">Daily updated and published notices for all the students</h2>
+				<div class="flex-container flex-column felx-md-row flex-lg-row flex-sm-row">
 					<div class="card shadow p-3 m-3" style="width:30rem">
 									 <div class="card-body">
 										    <a class="card-title display-6 mb-4" href="">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</a>
-										    <p class="card-text small-font" >काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
+										    <p class="card-text small-font pt-2" >काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
 										    <h5 class="text-muted">July 2, 2019</h5>
 									  </div>
 							</div>
 							<div class="card shadow p-4 m-3" style="width:30rem">
 									  <div class="card-body">
 										    <a class="card-title display-6" href="">त्रिवि र राजयोग शिक्षा तथा अनुसन्धान संस्थाविच सम्झौता ।</a>
-										    <p class="card-text small-font">काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
+										    <p class="card-text small-font pt-2">काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
 										    <h5 class="text-muted">July 4, 2019</h5>
 									  </div>
 							</div>
@@ -411,13 +504,12 @@
 				</div>
 				</div>
 	<!-- Footer section		 -->
-			<div class="footer-container">
+			<div class="footer-container container-fluid">
 				<div class="row text-white">
-					<div class="col-lg-4 col-md-12 pt-5">
-						<div class="text-white">
-							<div class="pt-high">
-								<img class="img-fluid"src="img/tu-logo.png" height="200px" width="200px" style="padding-bottom:0.9rem">
-								<p class="px-3">Tribhuvan University (TU), which was established in 1959, is the first national institution of higher education in Nepal. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur, an ancient and small town located five kilometers away from Kathmandu city centre. There are 39 central  departments and 4 research centres in TU. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur<a href="#" class="card-link">Read more</a></p>
+					<div class="col-lg-4 col-md-12 p-4">
+						<div class="text-white mq">
+								<img class="img-fluid"src="img/tu-logo.png" height="400px" width="400px" style="padding-bottom:0.9rem">
+								<p class="px-3">Tribhuvan University (TU), which was established in 1959, is the first national institution of higher education in Nepal. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur, an ancient and small town located five kilometers away from Kathmandu city centre. There are 39 central  departments and 4 research centres in TU. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur...<a href="#" class="card-link white-link">Read more</a></p>
 								<div class="social-icons pt-5  text-white" align="center">
 									<a href="#" class="fa fa-facebook p-2 text-white"></a>
 									<a href="#" class="fa fa-twitter p-2 text-white"></a>
@@ -425,39 +517,38 @@
 									<a href="#" class="fa fa-google p-2 text-white"></a>
 									<a href="#" class="fa fa-youtube p-2 text-white"></a>
 								</div>
-							</div>
 						</div>
 					</div>
-					<div class="col-lg-8 col-md-12 links">
+					<div class="col-lg-8 col-md-12 mq">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-4">
 									<h5>TU Officials</h5>
 									<ul class="text white">
-										<li><a href="">General admission division</a></li>
-										<li><a href="">Coordination divisions</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">Students welfare and directorate</a></li>
+										<li><a href="" class="white-link">General admission division</a></li>
+										<li><a href="" class="white-link">Coordination divisions</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">Students welfare and directorate</a></li>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
 									<h5>Institutes</h5>
 									<ul class="text-white">
-										<li><a href="">General admission division</a></li>
-										<li><a href="">Coordination divisions</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">Students welfare and directorate</a></li>
+										<li><a href="" class="white-link">General admission division</a></li>
+										<li><a href="" class="white-link">Coordination divisions</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">Students welfare and directorate</a></li>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
 									<h5>Academics</h5>
 									<ul class="text-white">
-										<li><a href="">General admission division</a></li>
-										<li><a href="">Coordination divisions</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">Students welfare and directorate</a></li>
+										<li><a href="" class="white-link">General admission division</a></li>
+										<li><a href="" class="white-link">Coordination divisions</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">Students welfare and directorate</a></li>
 									</ul>
 								</div>
 							</div>
@@ -466,36 +557,36 @@
 								<div class="col-lg-4 col-md-4 col-sm-4">
 									<h5>Faculties</h5>
 									<ul class="text-white">
-										<li><a href="">General admission division</a></li>
-										<li><a href="">Coordination divisions</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">Students welfare and directorate</a></li>
+										<li><a href="" class="white-link">General admission division</a></li>
+										<li><a href="" class="white-link">Coordination divisions</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">Students welfare and directorate</a></li>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
 									<h5>Research Centres</h5>
 									<ul class="text-white">
-										<li><a href="">General admission division</a></li>
-										<li><a href="">Coordination divisions</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">Students welfare and directorate</a></li>
+										<li><a href="" class="white-link">General admission division</a></li>
+										<li><a href="" class="white-link">Coordination divisions</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">Students welfare and directorate</a></li>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
 									<h5>Important Links</h5>
 									<ul class="text-white">
-										<li><a href="">General admission division</a></li>
-										<li><a href="">Coordination divisions</a></li>
-										<li><a href="">TU location</a></li>
-										<li><a href="">The university campus</a></li>
-										<li><a href="">Students welfare and directorate</a></li>
+										<li><a href="" class="white-link">General admission division</a></li>
+										<li><a href="" class="white-link">Coordination divisions</a></li>
+										<li><a href="" class="white-link">TU location</a></li>
+										<li><a href="" class="white-link">The university campus</a></li>
+										<li><a href="" class="white-link">Students welfare and directorate</a></li>
 									</ul>
 								</div>
 							</div>
-							<p class="text-white" style="padding-bottom:1px">Copyright &copy; Tribhuvan University</p>
-							<a class="no-change tw" href="#">Powered by : Central Department of Computer Science & Information Technology </a>
+							<p class="pt-3">Copyright &copy; Tribhuvan University<br><a class="white-link"href="#">Powered by : Central Department of Computer Science & Information Technology </a></p>
+							
 					</div>
 				</div>
 		</div>

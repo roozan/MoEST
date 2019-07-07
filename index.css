@@ -1,24 +1,48 @@
 /*#25396c blue*/
 /*#E57F35 orange*/
 @media only screen and (min-width: 1200px) {
-  .research-icons {
-    padding: 0.7em 0.1em;
-  }
+  .pt-high{ padding-top: 9.3em;}
+  .footer-container{ background:url('img/footer-bg.png') no-repeat; background-size:100% 100%; }
+  .mq{padding-top: 9.3em;}
+  .bold-text{padding:3em;}
 }
-@media only screen and (max-width: 962px) {
-  .fa {
-    font-size:20px !important;
+@media only screen and (max-width: 1200px) {
+  .pt-high{padding-top:6em;}
+  .footer-container{background-color:#4B9EFA;}
+  .mq{padding:1.6em;}
   }
+@media only screen and (max-width: 962px) {
+  .about-container{background: url("img/curve-about.png") no-repeat;background-size:contain;}
+  .articles-container{background:url('img/curve-research.png') no-repeat;background-size:contain;}
+   .gallery-container{background:url("img/curve-gallery.png") no-repeat;background-size:contain;}
+  .pt-high{ padding-top: 8.6em;} 
+   .wrap-up-container{ background:url("img/wrap-up.png") no-repeat;background-size: 100% 100%; background-position: center}
+}
+@media only screen and (min-width: 962px) { 
+  .about-container{background: url("img/curve-bg.png") no-repeat;background-size:contain;}
+  .articles-container{background:url('img/curve-bg-large.png') no-repeat;background-size:contain;}
+   .gallery-container{background:url("img/curve-bg-gallery.png") no-repeat;background-size:contain;}
+  .wrap-up-container{ background:url("img/wrap-up.png") no-repeat;background-size: contain;background-position: center;}
+}
+@media only screen and (min-width: 600px) {
+  .circle {height: 34px;width: 80px;background-color: #E57F35;border-radius: 50%;display: inline-block;}
+  }
+  @media only screen and (max-width: 600px) {
+  .fa { font-size:20px !important; }
+  .pt-high{padding-top:2.4em;}
+  }
+  .lang-bar{
+  max-width:100% !important;
 }
 .container-fluid{
 	padding:1.2rem;
 }
 .nav-item, .dropdown-item{
-	font-size: 12px;
+	font-size: 13px;
 }
-/*.carousel-container{
-  padding-bottom: 0.8rem;
-}*/
+.white-link{
+  color:white;
+}
 .custom-car-item{
     height: 60vh;
 } 
@@ -42,26 +66,9 @@
 .recent-news-container{
   background-color: #25396c;
 }
-.about-container{
-   background: url("img/curve-bg.png") no-repeat;
-   background-size:contain;
-}
-.articles-container{
-  background:url('img/curve-bg-large.png') no-repeat;
-  background-size:contain;
-}
-.gallery-container{
-  background:url("img/curve-bg-gallery.png") no-repeat;
-  background-size:contain;
-}
-.wrap-up-container{
-  background:url("img/wrap-up.png") no-repeat;
-  background-size:contain;
-  background-position: center;
-}
-.footer-container{
-   background:url('img/footer-bg.png') no-repeat;
-   background-size:100% 100%;
+.circle:hover{
+  border:1px solid white;
+  cursor:pointer;
 }
 .headings{
   color:white;
@@ -74,12 +81,6 @@
 .info{
   background-color: #4b9efa;
 }
-.links{
-  padding-top:9.1em;
-}
-.pt-high{
-  padding-top: 9.3em;
-}
 .background-img{
   position:absolute;
   top:50%;
@@ -88,5 +89,16 @@
   margin:0.3em;
   display:flex;
   justify-content: center;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
 }
 
