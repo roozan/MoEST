@@ -16,14 +16,14 @@
 @media only screen and (max-width: 962px) {
   .fc{font-size:2.1em !important;}
   .sm-text{font-size: 18px;}
-  .about-container{background:url("img/curve-about.png") no-repeat;background-size:contain;}
-  .articles-container{background:url("img/curve-research.png") no-repeat;background-size:contain;}
-  .gallery-container{background:url("img/curve-gallery.png") no-repeat;background-size:contain;}
+  .about-container{background:url(img/curve-about.png) no-repeat;background-size:contain;}
+  .articles-container{background:url(img/curve-research.png) no-repeat;background-size:contain;}
+  .gallery-container{background:url(img/curve-gallery.png) no-repeat;background-size:contain;}
   .pt-high{ padding-top:2.4em;} 
-  .wrap-up-container{ background:url("img/wrap-up.png") no-repeat;background-size: 100% 100%; background-position: center;}
+  .wrap-up-container{ background:url(img/wrap-up.png) no-repeat;background-size: 100% 100%; background-position: center;}
 }
 @media only screen and (min-width: 962px) {
-  .circle {border-radius: 50%;display: inline-block;height:200px;width:220px;} 
+  .circle-link, .circle-stat{border-radius: 50%;display: inline-block;height:150px;width:150px;} 
   .articles-container{background:url(img/curve-bg-large.png) no-repeat;background-size:contain;}
    .gallery-container{background:url(img/curve-bg-gallery.png) no-repeat;background-size:contain;}
   .about-container{background:url(img/curve-bg.png) no-repeat;background-size:contain;}
@@ -63,8 +63,17 @@
 .small-font{
   font-size: 0.9em;
 }
-.circle:hover{
-  border:2px solid black;
+.circle-stat{
+  box-shadow: inset 0px 0px 0px 6px #25396C;
+}
+.circle-link{
+  box-shadow: inset 0px 0px 0px 6px #E57F35;
+}
+.circle-link:hover{
+  cursor:pointer;
+  color:black;
+}
+.circle-stat:hover{
   cursor:pointer;
   color:black;
 }
@@ -77,10 +86,4 @@
 .carousel-inner>.row-equal.next, 
 .carousel-inner>.row-equal.prev {
     display: flex;
-}
-.hovicon.effect-2.sub-a:hover:after {
-    -webkit-transform: scale(0.85);
-    -moz-transform: scale(0.85);
-    -ms-transform: scale(0.85);
-    transform: scale(0.85);
 }
