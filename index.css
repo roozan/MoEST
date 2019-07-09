@@ -23,7 +23,6 @@
   .wrap-up-container{ background:url(img/wrap-up.png) no-repeat;background-size: 100% 100%; background-position: center;}
 }
 @media only screen and (min-width: 962px) {
-  .circle-link, .circle-stat{border-radius: 50%;display: inline-block;height:150px;width:150px;} 
   .articles-container{background:url(img/curve-bg-large.png) no-repeat;background-size:contain;}
    .gallery-container{background:url(img/curve-bg-gallery.png) no-repeat;background-size:contain;}
   .about-container{background:url(img/curve-bg.png) no-repeat;background-size:contain;}
@@ -34,6 +33,9 @@
   .sm-text{font-size: 8px;}
   .fc{font-size:1.1em !important;}
   }
+@media only screen and (min-width:600px){
+  .circle-link, .circle-stat{border-radius: 50%;display: inline-block;height:169px;width:169px;} 
+}
 .lang-bar{
   max-width:100% !important;
 }
