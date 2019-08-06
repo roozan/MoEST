@@ -5,131 +5,96 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 </head>
 <body>
 
-	<!-- Logo and Language Bar -->
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-9">
-						<a href="#"><img class="img-fluid"src="img/tu-logo.png" height="320px" width="320px"></a>
-				</div>
-				<div class="col-3">
-					<div class = "text-right">
-						<a href="#" class="p-2"><img src="https://moe.gov.np/assets/frontend/img/en_flag.png">English</a>
-						<a href="#" class="p-2"><img src="https://moe.gov.np/assets/frontend/img/nep_flag.png">नेपाली</a>
-					</div>
-				</div>
-			</div>
+	<!-- Language bar -->
+		<div class = "text-right">
+			<a href="" class="p-2"><img src="https://moe.gov.np/assets/frontend/img/en_flag.png">English</a>
+			<a href="#" class="p-2"><img src="https://moe.gov.np/assets/frontend/img/nep_flag.png">नेपाली</a>
 		</div>
 
-
-		<!-- Navbar -->
-			<div class="container-fluid">
-				<ul class="nav justify-content-end">
-					<li class="nav-item active">
-					    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-			      	<li class="nav-item dropdown">
-			        	<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">About Us</a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	<!-- Logo and Nav Bar -->
+	<div class="nav-bg">
+		<div class="d-flex flex-row">
+			<div class="p-2">
+				<img class="img-fluid" src="img/tu-logo.png" width="310px">
+			</div>
+				<div class="d-flex flex-column">
+					<div class="p-0 m-0">
+						<ul class="nav ml-5">
+						    <li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Home</a>
+						    </li>
+						    <li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">About Us</a>
+						      </li>
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Tu Officials</a>
+					      	</li>
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Tu Authorities</a>
+			    		  	</li>							      
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Research Center</a>
+					      	</li>
+					      	<form style="padding-left:9em">
+							    <span class="circular-input-box btn" ><i class="fa fa-search text-white"></i></span>
+							    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+							</form>
+					  	</ul>
+			  		</div>
+				  	<div class="p-0">
+					<ul class="nav ml-5 mt-2">
+						<li class="nav-item">
+						    <a class="nav-link text-white" href="#">Institute of Engineering <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Medicine</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						          <a class="dropdown-item" href="#">Action</a>
+						          <a class="dropdown-item" href="#">Another action</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="#">Something else here</a>
+					        </div>
+				    	</li>
+				    	<li class="nav-item dropdown">
+				        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Engineering</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							          <a class="dropdown-item" href="#">Action</a>
+							          <a class="dropdown-item" href="#">Another action</a>
+							          <div class="dropdown-divider"></div>
+							          <a class="dropdown-item" href="#">Something else here</a>
+						        </div>
+				    	</li>
+				     	<li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institute of Engineering</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					          <a class="dropdown-item" href="#">Action</a>
 					          <a class="dropdown-item" href="#">Another action</a>
 					          <div class="dropdown-divider"></div>
 					          <a class="dropdown-item" href="#">Something else here</a>
-				        </div>
-					</li>
-					<li class="nav-item dropdown">
-					        	<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Plans & Policies</a>
-							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								          <a class="dropdown-item" href="#">Action</a>
-								          <a class="dropdown-item" href="#">Another action</a>
-								          <div class="dropdown-divider"></div>
-								          <a class="dropdown-item" href="#">Something else here</a>
-							        </div>
-					    	</li>
-					    	<li class="nav-item dropdown">
-					        	<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Notices</a>
-							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								          <a class="dropdown-item" href="#">Action</a>
-								          <a class="dropdown-item" href="#">Another action</a>
-								          <div class="dropdown-divider"></div>
-								          <a class="dropdown-item" href="#">Something else here</a>
-							        </div>
-					    	</li>
-					     	<li class="nav-item dropdown">
-						        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications
-						        </a>
-						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					        </div>
+					    </li>
+					    <li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">TU Officials</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						          <a class="dropdown-item" href="#">Action</a>
 						          <a class="dropdown-item" href="#">Another action</a>
 						          <div class="dropdown-divider"></div>
 						          <a class="dropdown-item" href="#">Something else here</a>
-						        </div>
-						    </li>
-						    <li class="nav-item dropdown">
-					        	<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">TU Officials</a>
-							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								          <a class="dropdown-item" href="#">Action</a>
-								          <a class="dropdown-item" href="#">Another action</a>
-								          <div class="dropdown-divider"></div>
-								          <a class="dropdown-item" href="#">Something else here</a>
-							        </div>
-					    	</li>
-					        <li class="nav-item dropdown">
-						        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institutes
-						        </a>
-						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						          <a class="dropdown-item" href="#">Action</a>
-						          <a class="dropdown-item" href="#">Another action</a>
-						          <div class="dropdown-divider"></div>
-						          <a class="dropdown-item" href="#">Something else here</a>
-						        </div>
-						    </li>
-						    <li class="nav-item dropdown">
-					        	<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Faculties</a>
-							    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								          <a class="dropdown-item" href="#">Action</a>
-								          <a class="dropdown-item" href="#">Another action</a>
-								          <div class="dropdown-divider"></div>
-								          <a class="dropdown-item" href="#">Something else here</a>
-						        </div>
-					    	</li>
-					    	<li class="nav-item dropdown">
-					        	<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Academics</a>
-							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								          <a class="dropdown-item" href="#">Action</a>
-								          <a class="dropdown-item" href="#">Another action</a>
-								          <div class="dropdown-divider"></div>
-								          <a class="dropdown-item" href="#">Something else here</a>
-							        </div>
-					    	</li>
-					    	<li class="nav-item dropdown">
-					        	<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Research Centres</a>
-							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								          <a class="dropdown-item" href="#">Action</a>
-								          <a class="dropdown-item" href="#">Another action</a>
-								          <div class="dropdown-divider"></div>
-								          <a class="dropdown-item" href="#">Something else here</a>
-							        </div>
-					    	</li>
-				</ul>
+					        </div>
+				    	</li>	    	
+					</ul>
+				</div>
 			</div>
-
-		<!-- Header Section -->
-			<div class="container-fluid text-center">
-				<h3 class="display-5 font-weight-bold">Campus Life in Tribhuvan University</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-			</div>
-
-		<!-- Carousel and Search Box -->
-			<div class="carousel-container py-1">
+		</div>
+	</div>
+			
+		<!-- Carousel and Text -->
+			<div class="carousel-container">
 				  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner">
 							    <div class="carousel-item active custom-car-item">
@@ -141,7 +106,7 @@
 							    <div class="carousel-item custom-car-item">
 							      <img src="img/carousel-5.jpg" class="car-img w-100" alt="...">
 							    </div>
-						  </div>
+						  </div><!-- 
 						  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Previous</span>
@@ -149,15 +114,18 @@
 						  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
 						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Next</span>
-						  </a>
+						  </a> -->
 					</div>
-					<div class="carousel-caption d-none d-md-inline">
-				          <h4 class="pb-2">Search for websites locations and people</h4>
-				          	<div class="mb-2" align="center">
-						  		<input type="text" class="circular-input-box p-2" placeholder="Search for course?" style="width:500px">
-						   		<span class="circular-input-box btn btn-primary" ><i class="fa fa-search text-white"></i></span>
-							  </div>
-						</div>
+					<div class="carousel-caption">
+						<div align="right">
+					         <h3 class="display-5 font-weight-bold">Tribhuvan University</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
+								tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+								quis nostrud exercitation <br>ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis<br> aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur.</p>
+						</div>		
+					</div>
 			</div>
 
 	<!-- News and Events -->
@@ -168,7 +136,7 @@
 						    <div class="container mb-2">
 						        <div class="row">
 						        	<div class="col-12 col-lg-10 text-white">
-						        		<h4>NEWS | <a href="" class="white-link">All News</a></h4>
+						        		<h4>NEWS | <a href="" class="text-white">All News</a></h4>
 						        	</div>
 						            <div class="col-12 col-lg-2">
 						                <a class="btn btn-primary" href="#postsCarousel" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
@@ -183,7 +151,7 @@
 										    <h6 class="card-subtitle my-3 text-muted">Published on July 1, 2019</h6>
 					                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</h6>
 					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id.</div>
-					                        <div align="right">
+					                        <div class="pt-2" align="right">
 						                        <button class="btn btn-primary btn-sm">View More</button>
 						                    </div>
 						                </div>
@@ -193,7 +161,7 @@
 										    <h6 class="card-subtitle my-3 text-muted">Published on January 3, 2019</h6>
 					                        <h6 style="color:#E57F35">शैक्षिक वर्ष २०७५/७६ मा एमबिबिएस र बिडिएसका लागि  शुल्क बृद्धि नगर्ने सम्बन्धी नेपाल…  </h6>
 					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore</div>
-					                        <div align="right">
+					                        <div class="pt-2"  align="right">
 						                        <button class="btn btn-primary btn-sm">View More</button>
 						                    </div>
 						                </div>
@@ -203,7 +171,7 @@
 										    <h6 class="card-subtitle my-3 text-muted">Published on March 2, 2019</h6>
 					                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</h6>
 					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore</div>
-					                        <div align="right">
+					                        <div class="pt-2" align="right">
 						                        <button class="btn btn-primary btn-sm">View More</button>
 						                    </div>
 						                </div>
@@ -215,7 +183,7 @@
 										    <h6 class="card-subtitle my-3 text-muted">Published on May 1, 2019</h6>
 					                        <h6 style="color:#E57F35">विश्व शिक्षक दिवस, २०१८ का अवसरमा माननीय शिक्षा, विज्ञान तथा प्रविधि मन्त्री गिरीराजमण</h6>
 					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id.</div>
-					                        <div align="right">
+					                        <div class="pt-2" align="right">
 						                        <button class="btn btn-primary btn-sm">View More</button>
 						                    </div>
 						                </div>
@@ -225,7 +193,7 @@
 										    <h6 class="card-subtitle my-3 text-muted">Published on July 1, 2019</h6>
 					                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</h6>
 					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id.</div>
-					                        <div align="right">
+					                        <div class="pt-2" align="right">
 						                        <button class="btn btn-primary btn-sm">View More</button>
 						                    </div>
 						                </div>
@@ -235,7 +203,7 @@
 										    <h6 class="card-subtitle my-3 text-muted">Published on July 1, 2019</h6>
 					                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</h6>
 					                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id Lorem ipsum dolor sit amet, consectetur .</div>
-					                        <div align="right">
+					                        <div class="pt-2" align="right">
 						                        <button class="btn btn-primary btn-sm">View More</button>
 						                    </div>
 						                </div>
@@ -248,11 +216,11 @@
 						<div class="container">
 					        <div class="row">
 					        	<div class="col-12">
-					        		<h4 class="text-white">EVENTS | <a href="" class="white-link">All events</a></h4>
+					        		<h4 class="text-white">EVENTS | <a href="" class="text-white">All events</a></h4>
 					        		<div class="pt-4">
 						        		<div class="card p-2">
 						        			<div class="row m-1">
-						        				<div class="col-2 text-white text-center" style="background-color:#25396C ;border-radius:50%">
+						        				<div class="col-2 text-white text-center" style="background-color:#25396C ">
 						        					<h5 class="small-font p-1">02 Aug</h5>
 						        				</div>
 						        				<div class="col-10">
@@ -262,7 +230,7 @@
 						        			</div>
 						        			<hr>
 						        			<div class="row m-1">
-						        				<div class="col-2 text-white text-center" style="background-color:#25396C ;border-radius:50%">
+						        				<div class="col-2 text-white text-center" style="background-color:#25396C ">
 						        					<h5 class="small-font p-1">12 Dec</h5>
 						        				</div>
 						        				<div class="col-10">
@@ -366,13 +334,13 @@
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="col-lg-8">
+				<div class="col-lg-8 px-5">
 					<div align="center">
 							<div class="form-inline" style="display:inline-block">
 								  <input type="text" class="form-control" placeholder="Search for article">
 								    <span class="btn btn-primary"><i class="fa fa-search text-white"></i></span>
 						  	</div>	
-							  	<div class="row py-3">
+							  	<div class="row py-3 px-5">
 							  		<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
 									  	<div class="card text-left h-100" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/article-1.jpeg" alt="Card image cap">
@@ -457,46 +425,46 @@
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="col-lg-8">
+				<div class="col-lg-8 px-5">
 					<div align="center">
-							  	<div class="row py-3">
+							  	<div class="row px-5">
 							  		<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
 									  	<div class="card text-left" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/graduation.jpg" alt="Card image cap">
-										    <a href="" class="card-link">Graduation Ceremony</a>
+										    <a href="" class="text-dark card-link">Graduation Ceremony</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
 									  	<div class="card text-left px-0" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/educational-visit.jpg" alt="Card image cap">
-										    <a href="" class="card-link">Educational Visit</a>
+										    <a href="" class="text-dark card-link">Educational Visit</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 pb-3 mb-2">
 									  	<div class="card text-left" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/program.jpg" alt="Card image cap">
-										    <a href="" class="card-link">Students Photos</a>
+										    <a href="" class="text-dark card-link">Students Photos</a>
 										</div>
 									</div>
 								</div>
 
-								<div class="row py-3">
+								<div class="row px-5">
 							  		<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
 									  	<div class="card text-left" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/graduates.jpg" alt="Card image cap">
-										    <a href="" class="card-link">Graduates</a>
+										    <a href="" class="text-dark card-link">Graduates</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
 									  	<div class="card text-left px-0" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/orientation.jpg" alt="Card image cap">
-										    <a href="" class="card-link">Orientation Program</a>
+										    <a href="" class="text-dark card-link">Orientation Program</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 pb-3 mb-2">
 									  	<div class="card text-left" style="width: 12rem;">
 										  	<img class="card-img-top" src="img/other.jpg" alt="Card image cap">
-										    <a href="" class="card-link">Other Activities</a>
+										    <a href="" class="text-dark card-link">Other Activities</a>
 										</div>
 									</div>
 								</div>
@@ -523,14 +491,14 @@
 				<div class="flex-container flex-column felx-md-row flex-lg-row flex-sm-row">
 					<div class="card shadow p-3 m-3" style="width:30rem">
 						<div class="card-body">
-						    <a class="card-title display-6 mb-4" href="">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</a>
+						    <a class="card-title display-6 mb-4 font-weight-bold " href="">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</a>
 						    <p class="card-text small-font pt-2" >काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
 						    <h5 class="text-muted">July 2, 2019</h5>
 					  	</div>
 					</div>
 					<div class="card shadow p-4 m-3" style="width:30rem">
 					  <div class="card-body">
-						    <a class="card-title display-6" href="">त्रिवि र राजयोग शिक्षा तथा अनुसन्धान संस्थाविच सम्झौता ।</a>
+						    <a class="card-title display-6 font-weight-bold " href="">त्रिवि र राजयोग शिक्षा तथा अनुसन्धान संस्थाविच सम्झौता ।</a>
 						    <p class="card-text small-font pt-2">काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. तीर्थराज खनियाँले उद्घाटन गर्नुभयो। उद्घाटन कार्यक्रमलाई सम्बोधन गर्नुहुँदै उपकुलपति खनियाँले नेपाल सरकारको समेत …</p>
 						    <h5 class="text-muted">July 4, 2019</h5>
 					  </div>
@@ -545,7 +513,7 @@
 			<div class="footer-container container-fluid">
 				<div class="row text-white">
 					<div class="col-lg-4 col-md-12 p-4">
-						<div class="text-white mq">
+						<div class="mq">
 								<img class="img-fluid"src="img/tu-logo.png" height="400px" width="400px" style="padding-bottom:0.9rem">
 								<p class="px-3">Tribhuvan University (TU), which was established in 1959, is the first national institution of higher education in Nepal. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur, an ancient and small town located five kilometers away from Kathmandu city centre. There are 39 central  departments and 4 research centres in TU. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur...<a href="#" class="card-link white-link">Read more</a></p>
 								<div class="social-icons pt-5 text-white" align="center">
@@ -558,72 +526,72 @@
 						</div>
 					</div>
 					<div class="col-lg-8 col-md-12 mq">
-							<div class="row">
+							<div class="row pt-5">
 								<div class="col-lg-4 col-md-4 col-sm-4">
-									<h5>TU Officials</h5>
-									<ul class="text white">
-										<li><a href="" class="white-link">General admission division</a></li>
-										<li><a href="" class="white-link">Coordination divisions</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">Students welfare and directorate</a></li>
+									<h5 class="pl-5">TU Officials</h5>
+									<ul>
+										<a href="" class="text-white">General admission division<br></a>
+										<a href="" class="text-white">Coordination divisions<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">Students welfare and directorate<br></a>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
-									<h5>Institutes</h5>
-									<ul class="text-white">
-										<li><a href="" class="white-link">General admission division</a></li>
-										<li><a href="" class="white-link">Coordination divisions</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">Students welfare and directorate</a></li>
+									<h5 class="pl-5">Institutes</h5>
+									<ul>
+										<a href="" class="text-white">General admission division<br></a>
+										<a href="" class="text-white">Coordination divisions<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">Students welfare and directorate<br></a>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
-									<h5>Academics</h5>
-									<ul class="text-white">
-										<li><a href="" class="white-link">General admission division</a></li>
-										<li><a href="" class="white-link">Coordination divisions</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">Students welfare and directorate</a></li>
+									<h5 class="pl-5">Academics</h5>
+									<ul>
+										<a href="" class="text-white">General admission division<br></a>
+										<a href="" class="text-white">Coordination divisions<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">Students welfare and directorate<br></a>
 									</ul>
 								</div>
 							</div>
 
-							<div class="row">
+							<div class="row py-4">
 								<div class="col-lg-4 col-md-4 col-sm-4">
-									<h5>Faculties</h5>
-									<ul class="text-white">
-										<li><a href="" class="white-link">General admission division</a></li>
-										<li><a href="" class="white-link">Coordination divisions</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">Students welfare and directorate</a></li>
+									<h5 class="pl-5">Faculties</h5>
+									<ul>
+										<a href="" class="text-white">General admission division<br></a>
+										<a href="" class="text-white">Coordination divisions<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">Students welfare and directorate<br></a>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
-									<h5>Research Centres</h5>
-									<ul class="text-white">
-										<li><a href="" class="white-link">General admission division</a></li>
-										<li><a href="" class="white-link">Coordination divisions</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">Students welfare and directorate</a></li>
+									<h5 class="pl-5">Research Centres</h5>
+									<ul>
+										<a href="" class="text-white">General admission division<br></a>
+										<a href="" class="text-white">Coordination divisions<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">Students welfare and directorate<br></a>
 									</ul>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4">
-									<h5>Important Links</h5>
-									<ul class="text-white">
-										<li><a href="" class="white-link">General admission division</a></li>
-										<li><a href="" class="white-link">Coordination divisions</a></li>
-										<li><a href="" class="white-link">TU location</a></li>
-										<li><a href="" class="white-link">The university campus</a></li>
-										<li><a href="" class="white-link">Students welfare and directorate</a></li>
+									<h5 class="pl-5">Important Links</h5>
+									<ul>
+										<a href="" class="text-white">General admission division<br></a>
+										<a href="" class="text-white">Coordination divisions<br></a>
+										<a href="" class="text-white">TU location<br></a>
+										<a href="" class="text-white">The university campus<br></a>
+										<a href="" class="text-white">Students welfare and directorate<br></a>
 									</ul>
 								</div>
 							</div>
-							<p class="pt-3">Copyright &copy; Tribhuvan University<br><a class="white-link"href="#">Powered by : Central Department of Computer Science & Information Technology </a></p>
+							<p class="pt-3">Copyright &copy; Tribhuvan University<br><a class="text-white"href="#">Powered by : Central Department of Computer Science & Information Technology </a></p>
 					</div>
 				</div>
 		</div>
@@ -632,5 +600,6 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/index-script.js"></script>
 </body>
 </html>

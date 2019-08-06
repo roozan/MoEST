@@ -36,8 +36,19 @@
 @media only screen and (min-width:600px){
   .circle-link, .circle-stat{border-radius: 50%;display: inline-block;height:169px;width:169px;} 
 }
+html *
+{
+   font-family: 'Roboto', sans-serif;
+}
 .lang-bar{
   max-width:100% !important;
+}
+.nav-bg{
+  background:url(img/navbar-test.png) no-repeat;
+  background-size:100%  100%;
+}
+.hov-or:hover{
+  background-color:#E57F35;
 }
 .container-fluid{
 	padding:1.2rem;
@@ -45,12 +56,16 @@
 .white-link{
   color:white;
 }
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-30%);
+}
 .custom-car-item{
-    height: 60vh;
+    height: 80vh;
 } 
 .custom-car-item .car-img{
   object-fit: cover;
-    height: 70vh;
+    height: 80vh;
   }
   .card-img-top{
     height:120px;
