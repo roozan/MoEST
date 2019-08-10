@@ -1,0 +1,16 @@
+html * {
+	font-family: 'Farro', sans-serif;
+}
+.card-img-top {
+    width: 80%;
+    height: 10vw;
+    object-fit: cover;
+}
+.img-custom{
+	height:40vh;
+	object-fit:cover;
+}
+.details-car-text{
+	top: 25%;
+	transform:translateX(-55%);
+}

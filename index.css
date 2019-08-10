@@ -2,22 +2,23 @@
 /*#E57F35 orange*/
 @media only screen and (min-width: 1200px) {
   .footer-container{ background:url('img/footer-bg.png') no-repeat; background-size:100% 100%;}
-  .mq{padding-top: 9.3em;}
-  .bold-text{padding:3em;}
+  .mq{padding-top: 6.5em;}/*
+  .news{background:url(img/news-bg.png)no-repeat;background-position:center;background-size:100% 100%;}*/
 }
 @media only screen and (max-width: 1200px) {
   .pt-img{padding-top:3.2em;}
   .pt-high{padding-top:3.6em;}
   .footer-container{background-color:#4B9EFA;}
-  .mq{padding:1.6em;}
   }
 @media only screen and (max-width: 962px) {
   .fc{font-size:2.1em !important;}
   .sm-text{font-size: 18px;}
   .wrap-up-container{ background:url(img/wrap-up.png) no-repeat;background-size: 100% 100%; background-position: center;}
 }
-@media only screen and (min-width: 962px) {
+@media only screen and (min-width: 989px) {
+.rel{transform:translateX(-5%);}
   .wrap-up-container{ background:url(img/wrap-up.png) no-repeat;background-size: contain;background-position: center;}
+  .bg-c{background-color: #E57F35;}
 }
 @media only screen and (max-width: 600px) {
   .sm-text{font-size: 8px;}
@@ -28,8 +29,16 @@
 }
 html *
 {
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
+.transparency{
+      -webkit-mask-image:-webkit-gradient(linear, right top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+    }/*
+    .clip:before{
+      position:absolute;
+      background:url(img/wht.png) no-repeat;
+
+}*/
 .lang-bar{
   max-width:100% !important;
 }
@@ -46,9 +55,10 @@ html *
 .white-link{
   color:white;
 }
-.carousel-caption{
-  top: 50%;
-  transform: translateY(-30%);
+.car-home{
+  position:absolute;
+  top:15%;
+  transform: translateX(14%);
 }
 .custom-car-item{
     height: 80vh;
@@ -64,7 +74,7 @@ html *
 .circular-input-box{
     border-radius: 25px !important;
 }
-.btn-primary{
+.btn-secondary{
   background-color:#e57f35 !important;
 }
 .small-font{
@@ -83,11 +93,6 @@ html *
 .circle-stat:hover{
   cursor:pointer;
   color:black;
-}
-.flex-container{
-  margin:0.3em;
-  display:flex;
-  justify-content: center;
 }
 .carousel-inner>.row-equal.active, 
 .carousel-inner>.row-equal.next, 
