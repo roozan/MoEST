@@ -14,3 +14,6 @@ html * {
 	top: 25%;
 	transform:translateX(-55%);
 }
+a{
+	text-decoration:none !important;
+}
