@@ -3,105 +3,104 @@
 <head>
 	<title>Ministry of Education Science and Technology</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|PT+Sans|Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 </head>
 <body>
 
-	<!-- Logo Search box and Lang-Bar -->
-		<div class="d-md-flex flex-row justify-content-between pb-2">
-			<img class="img-fluid" src="img/tu-logo-cut.png">
-			<div class="d-flex flex-column align-self-center">
-		      	<ul>
-					<a href="" class="text-primary card-link"><img src="https://moe.gov.np/assets/frontend/img/en_flag.png">English</a>
-					<a href="#" class="text-primary card-link"><img src="https://moe.gov.np/assets/frontend/img/nep_flag.png">नेपाली</a>	
-			  	</ul>
-		  		<form class="form-inline px-4">
-					  	<input class="p-1" type="text" placeholder="Search the website">
-				   		<button type="button" class="btn-secondary p-1"><i class="fa fa-search"></i></button>
-			   	</form>
-			</div>
-		</div>
-
-		<!-- Navbar -->
-			<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#25396c">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-					</button>
-				 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-3 mr-auto">
-				    <li class="nav-item hov-or">
-				        <a class="nav-link text-white" href="index.html">Home</a>
-				    </li>
-				    <li class="nav-item hov-or">
-				        <a class="nav-link text-white" href="details.html">About Us</a>
-				      </li>
-				    <li class="nav-item hov-or">
-				        <a class="nav-link text-white" href="">Plans and Policies</a>
-				      </li>
-			      	<li class="nav-item hov-or">
-				        <a class="nav-link text-white" href="">Tu Officials</a>
-			      	</li>
-			      	<li class="nav-item hov-or">
-				        <a class="nav-link text-white" href="">Tu Authorities</a>
-	    		  	</li>							      
-			      	<li class="nav-item hov-or">
-				        <a class="nav-link text-white" href="">Research Center</a>
-			      	</li>					      	
-				</ul>
-		  	</nav>
-		  	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#E57F35;">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<!-- Navbar -->
+		<div class="d-lg-flex org flex-row ">
+			<img src="img/tu-logo-cut.png" width="320px" style="z-index:2">
+			<div class="d-flex flex-column flex-fill">
+				<nav class="navbar navbar-expand-lg navbar-dark rel" style="background-color:#25396c">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentFirst" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 					</button>
-				 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav">
-						<li class="nav-item hov-bl">
-					    <a class="nav-link text-white" href="https://ioe.edu.np/">Institute of Engineering <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item dropdown hov-bl">
-			        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Medicine</a>
-					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						          <a class="dropdown-item" href="#">Action</a>
-						          <a class="dropdown-item" href="#">Another action</a>
-						          <div class="dropdown-divider"></div>
-						          <a class="dropdown-item" href="#">Something else here</a>
-					        </div>
-				    	</li>
-				    	<li class="nav-item dropdown hov-bl">
-				        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Engineering</a>
+					 <div class="collapse navbar-collapse" id="navbarSupportedContentFirst">
+						<ul class="navbar-nav nav mg">
+						    <li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="index.html">Home</a>
+						    </li>
+						    <li class="nav-item hov-or">
+						        <a href="details.html" class="nav-link text-white" href="">About Us</a>
+						      </li>
+						    <li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Plans and Policies</a>
+						      </li>
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Tu Officials</a>
+					      	</li>
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Tu Authorities</a>
+			    		  	</li>							      
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Research Center</a>
+					      	</li>		
+						</ul>
+						<ul class="ml-auto navbar-nav">
+							<li class="px-3 py-2">
+								<form id="demo-2">
+									<input type="search" class="search-anim">
+								</form>
+							</li>
+			  			</ul>
+						<a href="" class="text-white card-link"><img src="https://moe.gov.np/assets/frontend/img/en_flag.png">English</a>
+						<a href="#" class="text-white card-link"><img src="https://moe.gov.np/assets/frontend/img/nep_flag.png">नेपाली</a>	
+					</div>
+			  	</nav>
+			  	<nav class="navbar navbar-expand-lg navbar-dark rel" style="background-color:#E57F35">
+			  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentSecond" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					  <div class="collapse navbar-collapse" id="navbarSupportedContentSecond">
+					    <ul class="nav navbar-nav mt-2 mt-lg-0">
+					      	<li class="nav-item hov-bl">
+					    		<a class="nav-link text-white" href="https://ioe.edu.np/">Institute of Engineering <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item dropdown hov-bl">
+				        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Medicine</a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							          <a class="dropdown-item" href="#">Action</a>
 							          <a class="dropdown-item" href="#">Another action</a>
 							          <div class="dropdown-divider"></div>
 							          <a class="dropdown-item" href="#">Something else here</a>
 						        </div>
-				    	</li>
-				     	<li class="nav-item dropdown hov-bl">
-					        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institute of Engineering</a>
-					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Action</a>
-					          <a class="dropdown-item" href="#">Another action</a>
-					          <div class="dropdown-divider"></div>
-					          <a class="dropdown-item" href="#">Something else here</a>
-					        </div>
-					    </li>
-					    <li class="nav-item dropdown hov-bl">
-			        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">TU Officials</a>
-					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					    	</li>
+					    	<li class="nav-item dropdown hov-bl">
+					        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Engineering</a>
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								          <a class="dropdown-item" href="#">Action</a>
+								          <a class="dropdown-item" href="#">Another action</a>
+								          <div class="dropdown-divider"></div>
+								          <a class="dropdown-item" href="#">Something else here</a>
+							        </div>
+					    	</li>
+					     	<li class="nav-item dropdown hov-bl">
+						        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institute of Engineering</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						          <a class="dropdown-item" href="#">Action</a>
 						          <a class="dropdown-item" href="#">Another action</a>
 						          <div class="dropdown-divider"></div>
 						          <a class="dropdown-item" href="#">Something else here</a>
-					        </div>
-				    	</li>	    	
-					</ul>
-				</div>
-			</nav>
+						        </div>
+						    </li>
+						    <li class="nav-item dropdown hov-bl">
+				        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">TU Officials</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							          <a class="dropdown-item" href="#">Action</a>
+							          <a class="dropdown-item" href="#">Another action</a>
+							          <div class="dropdown-divider"></div>
+							          <a class="dropdown-item" href="#">Something else here</a>
+						        </div>
+					    	</li>	  
+					    </ul>
+				  	</div>
+				</nav>
+			</div>
+		</div>
 			
 		<!-- Image , Caption and Curve  -->
 
@@ -123,120 +122,104 @@
 						</svg>
 					</div>
 
-			 <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="background-color:black">
-						  <div class="carousel-inner">
-							    <div class="carousel-item active custom-car-item clip">
-							      <img src="img/carousel-3.jpg" class=" car-img  w-100 transparency" alt="...">
-							    </div>
-							    <div class="carousel-item custom-car-item">
-							      <img src="img/carousel-4.jpg" class="car-img w-100 transparency" alt="...">
-							    </div>
-							    <div class="carousel-item custom-car-item">
-							      <img src="img/carousel-5.jpg" class="car-img w-100 transparency" alt="...">
-							    </div>
-						  </div>
-					<div class="carousel-caption car-home">
-						<div align="right">
-					         <h2 class="display-5 font-weight-bold ">Tribhuvan University</h2>
-								<p class="small-font p-2">
-								Lorem ipsum dolor sectetur adipisicing elit, sed <br>
-								tempor incidie et dolore magna aliqua.Ut enim <br>
-								quis nostrud exercitationullo laboris nisi ut aliquip ex<br>
-								consequat. Duisautedolor in reprehenderit in <br>
-								cillum dolore eu fla pariatur.</p>
-						</div>		
-					</div>
-			</div> -->
-
 	<!-- News and Events -->
 		<div class="container-fluid news">
-		    	<div class="row mq">
+		    	<div class="row margin-top">
 		    		<div class="col-12 col-lg-8 mb-4">
-						<div class="carousel" data-ride="carousel" id="postsCarousel">
-						    <div class="container mb-2">
+						    <div class="mb-2">
 						        <div class="d-flex flex-row justify-content-between">
 						        	<div class="d-flex flex-column text-white">
 						        		<h4>NEWS | <a href="" class="card-link text-white">All News</a></h4>
 						        	</div>
 						            <div>
-						                <a class="btn btn-secondary" href="#postsCarousel" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-						                <a class="btn btn-secondary" href="#postsCarousel" role="button" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+						                <a class="btn btn-secondary" href="#postsCarouselNews" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+						                <a class="btn btn-secondary" href="#postsCarouselNews" role="button" data-slide="next"><i class="fa fa-chevron-right"></i></a>
 						            </div>
 						        </div>
 						    </div>
-						    <div class="container carousel-inner">
-						        <div class="row row-equal carousel-item active">
-						            <div class="col-md-4 mb-1">
-						                <div class="card h-100">
-						                	<div class="box-or"></div>
-						               		<div class="card-body d-flex flex-column">
-											    <h6 class="card-subtitle mb-3 text-muted">Published on January 3, 2019</h6>
-						                        <h6 style="color:#E57F35">विश्व शिक्षक दिवस, २०१८ का अवसरमा माननीय शिक्षा, विज्ञान तथा प्रविधि मन्त्री गिरीराजमण  </h6>
-						                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore Lorem ipsum dolor sit in culpa qui officia deserunt mollit anim id est laborum.</div>
-						                        <button class="btn btn-secondary btn-sm mt-auto align-self-end">View More</button>
-						                    </div>
-						                </div>
-					            	</div>
-						            <div class="col-md-4 mb-1">
-						               <div class="card h-100">
-						                	<div class="box-or"></div>
-						               		<div class="card-body d-flex flex-column">
-											    <h6 class="card-subtitle mb-3 text-muted">Published on January 3, 2019</h6>
-						                        <h6 style="color:#E57F35">शैक्षिक वर्ष २०७५/७६ मा एमबिबिएस र बिडिएसका लागि  शुल्क बृद्धि नगर्ने सम्बन्धी नेपाल…  </h6>
-						                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore Lorem ipsum dolor sit amet, t, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-						                        <button class="btn btn-secondary btn-sm mt-auto align-self-end">View More</button>
-						                    </div>
-						                </div>
-						            </div>
-						            <div class="col-md-4 mb-1">
-						                <div class="card h-100">
-						                	<div class="box-or"></div>
-						               		<div class="card-body d-flex flex-column">
-											    <h6 class="card-subtitle mb-3 text-muted">Published on January 3, 2019</h6>
-						                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय.  </h6>
-						                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore Lorem ipsum dolor sit amet, t, mollit anim id est laborum.</div>
-						                        <button class="btn btn-secondary btn-sm mt-auto align-self-end">View More</button>
-						                    </div>
-						                </div>
-						            </div>
-						        </div>
-						        <div class="row row-equal carousel-item">
-						            <div class="col-md-4 mb-1">
-						                <div class="card h-100">
-						                	<div class="box-or"></div>
-						               		<div class="card-body d-flex flex-column">
-											    <h6 class="card-subtitle mb-3 text-muted">Published on January 3, 2019</h6>
-						                        <h6 style="color:#E57F35">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय.  </h6>
-						                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore Lorem ipsum dolor sit amet dent, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-						                        <button class="btn btn-secondary btn-sm mt-auto align-self-end">View More</button>
-						                    </div>
-						                </div>
-						            </div>
-						           <div class="col-md-4 mb-1">
-						                <div class="card h-100">
-						                	<div class="box-or"></div>
-						               		<div class="card-body d-flex flex-column">
-											    <h6 class="card-subtitle mb-3 text-muted">Published on January 3, 2019</h6>
-						                        <h6 style="color:#E57F35">विश्व शिक्षक दिवस, २०१८ का अवसरमा माननीय शिक्षा, विज्ञान तथा प्रविधि मन्त्री गिरीराजमण  </h6>
-						                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore Lorem ipsum dolor si laborum.</div>
-						                        <button class="btn btn-secondary btn-sm mt-auto align-self-end">View More</button>
-						                    </div>
-						                </div>
-						            </div>
-						           <div class="col-md-4 mb-1">
-						                <div class="card h-100">
-						                	<div class="box-or"></div>
-						               		<div class="card-body d-flex flex-column">
-											    <h6 class="card-subtitle mb-3 text-muted">Published on January 3, 2019</h6>
-						                        <h6 style="color:#E57F35">विश्व शिक्षक दिवस, २०१८ का अवसरमा माननीय शिक्षा, विज्ञान तथा प्रविधि मन्त्री गिरीराजमण  </h6>
-						                        <div class="card-text small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolore Lorem ipsum dolor sit amet dent, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-						                        <button class="btn btn-secondary btn-sm mt-auto align-self-end">View More</button>
-						                    </div>
-						                </div>
-						            </div>
-						        </div>
+							<div class="carousel" data-ride="carousel" id="postsCarouselNews">
+						    	<div class="carousel-inner">
+						        	<div class="carousel-item active">
+									  	<div class="row py-2">
+									  		<div class="col-12 col-sm-4 mb-2">
+											  	<div class="card h-100">
+												  	<img class="card-img-top" src="img/news-6.jpg" alt="Card image cap">
+											  		<div class="card-body d-flex flex-column small-font">
+											  			<div class="card-title">विदेशमा तीज रौनक, चाड तीज आउनुभन्दा एक महिना अघिदेखि</div>
+													    <p class="small-font">हिन्दु महिलाहरूको चाड तीज आउनुभन्दा झन्डै एक महिना अघिदेखि नै अस्ट्रेलियामा यसको रौनक छाइसकेको छ । </p>
+													    <h6 class="card-subtitle mb-2 text-muted small-font">January 3, 2019</h6>
+													    <a href="" class="card-link text-primary mt-auto align-self-end">View more</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 col-sm-4 mb-2">
+											  	<div class="card text-left h-100">
+												  	<img class="card-img-top" src="img/news-2.jpg" alt="Card image cap">
+												  	<div class="card-body d-flex flex-column small-font ">
+											  			<div class="card-title">शैक्षिक वर्ष २०७५/७६ मा एमबिबिएस र बिडिएसका लागि  
+											  			</div>
+													    <p class="card-text small-font">सिनेमा हलहरू फुर्सदका बेलामा विश्रामपूर्ण मनोरञ्जन गर्ने थलो हुन् । राष्ट्रियता प्रवर्द्धन गर्ने, भक्तिगान वा कसैको वन्दना गाउने स्थल होइनन् ।</p>
+													    <h6 class="card-subtitle mb-2 text-muted small-font">January 3, 2019</h6>
+													    <a href="" class="card-link text-primary mt-auto align-self-end">View more</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 col-sm-4 mb-2">
+											  	<div class="card text-left h-100">
+												  	<img class="card-img-top" src="img/news-.jpg" alt="Card image cap">
+												  	<div class="card-body d-flex flex-column small-font">
+											  			<div class="card-title">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा 
+											  			</div>
+													    <p class="card-text small-font">गणतन्त्र खतरामा पर्दैछ ।’ यो भनाइ कुनै बस, माइक्रो र टेम्पोमा कोचिएर यात्रा गर्ने, धुलोधुवाँबाट जोगिन मुखमा मास्क लगाएर</p>
+													    <h6 class="card-subtitle mb-2 text-muted small-font">June 23, 2019</h6>
+													    <a href="" class="card-link text-primary mt-auto align-self-end">View more</a>
+													</div>
+												</div>
+											</div>
+										</div>         
+				            	    </div>
+						        	<div class="carousel-item">
+									  	<div class="row py-2">
+									  		<div class="col-12 col-sm-4 mb-2">
+											  	<div class="card text-left h-100">
+												  	<img class="card-img-top" src="img/news-2.jpg" alt="Card image cap">
+												  	<div class="card-body d-flex flex-column small-font">
+											  			<div class="card-title">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा 
+											  			</div>
+													    <p class="card-text small-font">पाथीभरा गोल्डकप फुटबल प्रतियोगिताको फाइनलमा साबिक । फाइनल शुक्रबार हुनेछ । </p>
+													    <h6 class="card-subtitle mb-2 text-muted small-font">June 23, 2019</h6>
+													    <a href="" class="card-link text-primary mt-auto align-self-end">View more</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 col-sm-4 mb-2">
+											  	<div class="card text-left h-100">
+												  	<img class="card-img-top" src="img/news-4.jpg" alt="Card image cap">
+												  	<div class="card-body d-flex flex-column small-font">
+											  			<div class="card-title">आज श्रीकृष्ण जन्माष्टमी, देशभर हर्षोल्लासका साथ मनाइँदै
+											  			</div>
+													    <p class="card-text small-font">हिन्दु महिलाहरूको चाड तीज आउनुभन्दा झन्डै एक महिना अघिदेखि नै अस्ट्रेलियामा यसको रौनक छाइसकेको छ । </p>
+													    <h6 class="card-subtitle mb-2 text-muted small-font">June 23, 2019</h6>
+													    <a href="" class="card-link text-primary mt-auto align-self-end">View more</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 col-sm-4 mb-2">
+											  	<div class="card text-left h-100">
+												  	<img class="card-img-top" src="img/news-5.jpg" alt="Card image cap">
+												  	<div class="card-body d-flex flex-column small-font">
+											  			<div class="card-title">आत्महत्या बढ्यो 
+											  			</div>
+													    <p class="card-text small-font">विराटनगर — समाजप्रतिको अलगाव, व्याप्त निराशा, अवैध यौन सम्बन्ध र मानसिक समस्याका कारण पछिल्ला केही वर्षयता आत्महत्याका घटना बढदै गएका छन् ।</p>
+													    <h6 class="card-subtitle mb-2 text-muted small-font">June 23, 2019</h6>
+													    <a href="" class="card-link text-primary mt-auto align-self-end">View more</a>
+													</div>
+												</div>
+											</div>
+										</div>
+						        	</div>
+					    		</div>
 					    	</div>
-					    </div>
 					</div>
 					<div class="col-12 col-lg-4">
 						<div class="container">
@@ -246,27 +229,27 @@
 					        		<div class="pt-3">
 						        		<div class="card h-100">
 						                	<div class="box-or"></div>
-						        			<div class="flex-row d-flex p-2">
-						        				<div class="text-white text-center" style="background-color:#25396C ">
-						        					<h5 class="small-font pt-1">02 Aug</h5>
+						        			<div class="flex-row d-flex p-4">
+						        				<div class="text-white text-center align-self-start" style="background-color:#25396C">
+						        					<h5 class="small-font px-2 py-1">02 Aug</h5>
 						        				</div>
 						        				<div class="flex-column d-flex">
-						        					<h6 class="px-4">सबैका लागि शिक्षा समीक्षात्मक प्रतिवेदन सहभागि हुन निवेदन दिने बारे</h6>
+						        					<h6 class="px-3">सबैका लागि शिक्षा समीक्षात्मक प्रतिवेदन सहभागि हुन निवेदन दिने बारे</h6>
+					        						<h6 class="px-3 small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.onsectetur consectetur adipisicing elit.onsectetur Lorem ipst</h6>
+					        						<h6 class="text-muted small-font px-3">3 June, 2019</h6>
 						        				</div>
 					        				</div>
-					        				<h6 class="pt-2 small-font p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.onsectetur consectetur adipisicing elit.onsectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit.onsect</h6>
-					        				<hr>
-						        			<div class="flex-row d-flex p-2">
-						        				<div class="text-white text-center" style="background-color:#25396C ">
-						        					<h5 class="small-font pt-1">12  Dec</h5>
+						        			<div class="flex-row d-flex px-4">
+						        				<div class="text-white text-center align-self-start" style="background-color:#25396C">
+						        					<h5 class="small-font px-2 py-1">12 Dec</h5>
 						        				</div>
-						        				<div class="flex-column d-flex">
-						        					<h6 class="px-4">बैदेशिक अध्ययन तालिममा सहभागि हुन निवेदन दिने बारे</h6>
+						        				<div class="flex-column d-flex pb-4">
+						        					<h6 class="px-3">सबैका लागि शिक्षा समीक्षात्मक प्रतिवेदन सहभागि हुन निवेदन दिने बारे</h6>
+					        						<h6 class="px-3 small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.onsectetur consectetur adipisicing </h6>
+					        						<h6 class="text-muted small-font px-3">23 May, 2019</h6>
 						        				</div>
 						        			</div>
-					        				<h6 class="pt-2 small-font p-2">Lorem ipsLorem ipsum dolor sit amet, consectetur adipisicing elit.onsectur adipisicing elit.onsectur adipisicing elit.onsect sit amet, consectetur adipisicing </h6>
-						        			</div>
-						               </div>
+				        				</div>
 						          	</div>
 					        	</div>
 					        </div>
@@ -306,40 +289,40 @@
 			</div>
 
 	<!-- Circular Icon Links -->
-		<div class="container-fluid" style="background-color:#E57F35">
+		<div class="container-fluid" style="background-color:#25396c">
 			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active px-3">
 						<div class="row text-center text-white p-1">
 							<div class="col-3">
-			                    <div class="circle-link" style="background-color:#935B90; border:solid 4px #935B90">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-paper-plane fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Admission Portal</h6>
+			                            <i class="fas fa-edit fa-3x orng pb-4"></i>
+			                            <h6>Admission Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-link" style="background-color: #2b427c; border:solid 4px #2b427c">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-file fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Marksheet Portal</h6>
+			                            <i class="fab fa-medapps fa-3x orng pb-4" aria-hidden="true"></i>
+			                            <h6>Marksheet Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-link" style="background-color:green; border:solid 4px green">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-file-text fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Result Portal</h6>
+			                            <i class="fas fa-paste fa-3x orng pb-4" aria-hidden="true"></i>
+			                            <h6>Result Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-link" style="background-color:grey;border:solid 4px grey">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-user fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Students Portal</h6>
+			                            <i class="fas fa-user fa-3x orng pb-4" aria-hidden="true"></i>
+			                            <h6>Students Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
@@ -348,34 +331,34 @@
 				<div class="carousel-item px-5">
 					<div class="row text-center text-white p-1">
 							<div class="col-3">
-			                    <div class="circle-link" style="background-color:#935B90; border:solid 4px #935B90">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-paper-plane fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Background Portal</h6>
+			                            <i class="fas fa-paper-plane fa-3x orng pb-4" aria-hidden="true"></i>
+			                            <h6>Background Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-link" style="background-color: #2b427c; border:solid 4px #2b427c">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-file fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Teachers Portal</h6>
+			                            <i class="fas fa-user-cog fa-3x orng pb-4" aria-hidden="true"></i>
+			                            <h6>Teachers Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-link" style="background-color:green; border:solid 4px green">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-file-text fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Members Portal</h6>
+			                            <i class="fas fa-users fa-3x orng pb-4" aria-hidden="true"></i>
+			                            <h6>Members Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-link" style="background-color:grey;border:solid 4px grey">
+			                    <div>
 			                        <div class="py-4">
-			                            <a class="fc fa fa-user fa-3x pb-4" aria-hidden="true"></a>
-			                            <h6 class="sm-text">Staffs Portal</h6>
+			                            <i class="fas fa-user-friends fa-3x orng pb-4" aria-hidden="true"></i>
+			                            <h6>Staffs Portal</h6>
 			                        </div>
 			                    </div>
 			                </div>
@@ -394,7 +377,7 @@
 		</div>
 
 	<!-- Research, Pubs and Journals	 -->
-		<h4 class="py-2 text-white text-center"style="background-color:#25396c;padding-left:15em">Research, Publications and Journals</h4>
+		<h4 class="py-2 text-white text-center"style="background-color:#E57F35 ">Research, Publications and Journals</h4>
 		<div class="pb-2 container-fluid tu-logo">
 			<div class="row pt-2 pl-2">
 				<div class="col-lg-5">
@@ -464,83 +447,59 @@
 					<div class="carousel-item active px-5">
 						<div class="row text-center text-white p-1">
 							<div class="col-3">
-			                    <div class="circle-stat" style="background-color:grey; border:solid 4px grey">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-superpowers fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">1,500</h4>
-			                            <h6 class="sm-text">Affiliation</h6>
-			                        </div>
-			                    </div>
+		                        <div class="py-5">
+		                            <h4 class="sm-text orng">1,500</h4>
+		                            <h6 class="sm-text">Affiliation</h6>
+		                        </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-stat" style="background-color:green; border:solid 4px green">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-graduation-cap fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">50,00,000</h4>
-			                            <h6 class="sm-text">Graduation</h6>
-			                        </div>
-			                    </div>
+			                    <div class="py-5">
+		                            <h4 class="sm-text orng">500,000</h4>
+		                            <h6 class="sm-text">Graduation</h6>
+		                        </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-stat" style="background-color:#059DC9; border:solid 4px #059DC9">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-users fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">1,200</h4>
-			                            <h6 class="sm-text">Staff/Faculty</h6>
-			                        </div>
-			                    </div>
+			                    <div class="py-5">
+		                            <h4 class="sm-text orng">1,200</h4>
+		                            <h6 class="sm-text">Staff/Faculty</h6>
+		                        </div>
 			                </div>
 			                <div class="col-3">
-			                    <div class="circle-stat" style="background-color:#935B90; border:solid 4px #935B90">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-user fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">1,200</h4>
-			                            <h6 class="sm-text">Current Students</h6>
-			                        </div>
-			                    </div>
+			                    <div class="py-5">
+		                            <h4 class="sm-text orng">1,900</h4>
+		                            <h6 class="sm-text">Current Students</h6>
+		                        </div>
 		                	</div>
 		            	</div>
-				</div>
-				<div class="carousel-item px-5">
-					<div class="row text-center text-white p-1">
+					</div>
+					<div class="carousel-item px-5">
+						<div class="row text-center text-white p-1">
 							<div class="col-3">
-			                    <div class="circle-stat" style="background-color:grey; border:solid 4px grey">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-superpowers fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">1,500</h4>
-			                            <h6 class="sm-text">Collegs</h6>
-			                        </div>
-			                    </div>
-			                </div>
-			                <div class="col-3">
-			                    <div class="circle-stat" style="background-color:green; border:solid 4px green">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-graduation-cap fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">52,002</h4>
-			                            <h6 class="sm-text">Programes</h6>
-			                        </div>
-			                    </div>
-			                </div>
-			                <div class="col-3">
-			                    <div class="circle-stat" style="background-color:#059DC9; border:solid 4px #059DC9">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-users fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">1,200</h4>
-			                            <h6 class="sm-text">Teachers</h6>
-			                        </div>
-			                    </div>
-			                </div>
-			                <div class="col-3">
-			                    <div class="circle-stat" style="background-color:#935B90; border:solid 4px #935B90">
-			                        <div class="py-4">
-			                            <i class="fc fa fa-user fa-3x pb-1" aria-hidden="true"></i>
-			                            <h4 class="sm-text">1,200</h4>
-			                            <h6 class="sm-text">Total Passouts</h6>
-			                        </div>
-			                    </div>
+			                    <div class="py-5">
+			                        <h4 class="sm-text orng">1,500</h4>
+			                        <h6 class="sm-text">Colleges</h6>
+		                    	</div>
 		                	</div>
+			                <div class="col-3">
+			                  <div class="py-5">
+			                        <h4 class="sm-text orng">1,70,120</h4>
+			                        <h6 class="sm-text">Members</h6>
+			                    </div>
+			                </div>
+			                <div class="col-3">
+			                    <div class="py-5">
+			                        <h4 class="sm-text orng">1,560</h4>
+			                        <h6 class="sm-text">Teachers</h6>
+			                    </div>
+			                </div>
+			                <div class="col-3">
+			                    <div class="py-5">
+			                        <h4 class="sm-text orng">21,500</h4>
+			                        <h6 class="sm-text">Total Passouts</h6>
+			                    </div>
+		                    </div>
 		            	</div>
-				</div>
+		        	</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleSlidesOnlySecond" role="button" data-slide="prev">
 				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -550,11 +509,11 @@
 				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				</a>
-			</div>
+			</div>				
 		</div>
 
 	<!-- Photo Album	 -->
-		<h4 class="py-2 text-white text-center"style="background-color:#E57F35;padding-left:15em">Photo Album</h4>
+		<h4 class="py-2 text-white text-center"style="background-color:#E57F35">Photo Album</h4>
 		<div class="pb-2 container-fluid tu-logo">
 			<div class="row pt-2 pl-2">
 				<div class="col-lg-5">
@@ -575,19 +534,19 @@
 					<div align="center">
 							  	<div class="row mx-4">
 							  		<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
-									  	<div class="card text-left" style="width: 12rem;">
+									  	<div class="card text-left">
 										  	<img class="card-img-top" src="img/graduation.jpg" alt="Card image cap">
 										    <a href="" class="text-dark card-link p-2">Graduation Ceremony</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
-									  	<div class="card text-left px-0" style="width: 12rem;">
+									  	<div class="card text-left px-0">
 										  	<img class="card-img-top" src="img/educational-visit.jpg" alt="Card image cap">
 										    <a href="" class="text-dark card-link p-2">Educational Visit</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 pb-3 mb-2">
-									  	<div class="card text-left" style="width: 12rem;">
+									  	<div class="card text-left">
 										  	<img class="card-img-top" src="img/program.jpg" alt="Card image cap">
 										    <a href="" class="text-dark card-link p-2">Students Photos</a>
 										</div>
@@ -596,19 +555,19 @@
 
 								<div class="row mx-4">
 							  		<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
-									  	<div class="card text-left" style="width: 12rem;">
+									  	<div class="card text-left">
 										  	<img class="card-img-top" src="img/graduates.jpg" alt="Card image cap">
 										    <a href="" class="text-dark card-link p-2">Graduates</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 mb-2">
-									  	<div class="card text-left px-0" style="width: 12rem;">
+									  	<div class="card text-left px-0">
 										  	<img class="card-img-top" src="img/orientation.jpg" alt="Card image cap">
 										    <a href="" class="text-dark card-link p-2">Orientation Program</a>
 										</div>
 									</div>
 									<div class="col-lg-4 col-sm-4 col-md-4 pb-3 mb-2">
-									  	<div class="card text-left" style="width: 12rem;">
+									  	<div class="card text-left">
 										  	<img class="card-img-top" src="img/other.jpg" alt="Card image cap">
 										    <a href="" class="text-dark card-link p-2">Other Activities</a>
 										</div>
@@ -635,25 +594,27 @@
 		<div class="container-fluid wrap-up-container">
 			<h2 class="text-center font-weight-bold p-2" style="color:#25396c">Daily updated and published notices for all the students</h2>
 				<div class="d-md-flex flex-row justify-content-center" align="center">
-					<div class="card shadow p-2 m-2" style="width:18rem;background-color:rgba(255,255,255,0.7)">
-						<span class="fa fa-2x fa-thumb-tack"></span>
+					<div class="card shadow p-2 m-2" style="width:14rem;background-color:rgba(255,255,255,0.7)">
+						<span class="fas fa-dot-circle"></span>
 						<div class="card-body d-flex flex-column">
-						    <a class="card-title display-6 font-weight-bold text-dark" href="">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार कोपा अमेरिकाको सेमिफाइनल यात्रा तय गरेको छ ।</a>
-						    <p class="card-text small-font pt-2" >काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा. </p>
-						    <h5 class="mt-auto align-self-end">July 2, 2019</h5>
+							<img class="card-img-top pb-2" src="img/news-2.jpg" alt="Card image cap">
+						    <a class="card-title display-6 font-weight-bold text-dark" href="">ब्राजिलले पाराग्वेलाई टाइब्रेकरमा पराजित गर्दै बिहीबार</a>
+						    <p class="card-text small-font pt-2" >काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान,   </p>
+						    <h6 class="mt-auto align-self-end">July 2, 2019</h6>
 					  	</div>
 					</div>
-					<div class="card shadow p-2 m-2" style="width:18rem;background-color:rgba(255,255,255,0.7">
-						<span class="fa fa-2x fa-thumb-tack"></span>
-					  <div class="card-body d-flex flex-column">
+					<div class="card shadow p-2 m-2" style="width:14rem;background-color:rgba(255,255,255,0.7">
+						<span class="fas fa-dot-circle"></span>
+				  		<div class="card-body d-flex flex-column">
+					  		<img class="card-img-top pb-2" src="img/news-.jpg" alt="Card image cap">
 						    <a class="card-title display-6 font-weight-bold text-dark" href="">त्रिवि र राजयोग शिक्षा तथा अनुसन्धान संस्थाविच सम्झौता ।</a>
-						    <p class="card-text small-font pt-2">काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, महाराजगञ्ज क्याम्पसमा दन्त अस्पताल एवं दन्तचिकित्सामा स्नातक तहको अध्ययन अध्यापनको शुरु भएको छ । अस्पतालको उद्घाटन त्रिविका उपकुलपति प्रा.डा</p>
-						    <h5 class="mt-auto align-self-end">July 4, 2019</h5>
+						    <p class="card-text small-font pt-2">काठमाडौ, आषाढ १६, त्रिभुवन विश्वविद्यालय चिकित्साशास्त्र अध्ययन संस्थान, ।</p>
+						    <h6 class="mt-auto align-self-end">July 4, 2019</h6>
 					  </div>
 					</div>
 				</div>
-				<div class="pt-3" align="center">
-					<button class="btn-primary btn"style="background-color:#25396C">View more notices</button>
+				<div class="pt-2" align="center">
+					<button class="btn btn-primary"style="background-color:#25396c">View more notices</button>
 				</div>
 		</div>
 
@@ -661,90 +622,77 @@
 		<div class="footer-container container-fluid">
 			<div class="row text-white">
 				<div class="col-lg-4 col-md-12">
-					<div class="mq mt-5">
-							<img class="img-fluid pt-3"src="img/tu-logo.png" height="300px" width="300px" >
-							<p class="px-3 py-2 pt-3">Tribhuvan University (TU), which was established in 1959, is the first national institution of higher education in Nepal. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur, an ancient and small town located five kilometers away from Kathmandu city centre. There are 39 central  departments and 4 research centres in TU. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur...<a href="#" class="card-link white-link">Read more</a></p>
-							<div class="text-white" align="center">
-								<a href="https://www.facebook.com/TribhuvanUniversityNp/?ref=br_rs" class="fa fa-facebook fa-2x text-white p-3"></a>
-								<a href="https://twitter.com/tu_information?lang=en" class="fa fa-twitter fa-2x text-white p-3"></a>
-								<a href="https://www.instagram.com/explore/locations/253909750/tribhuvan-university" class="fa fa-instagram fa-2x text-white p-3"></a>
-								<a href="https://en.wikipedia.org/wiki/Tribhuvan_University" class="fa fa-google fa-2x text-white p-3"></a>
-								<a href="https://www.youtube.com/playlist?list=PLvWE6E6-vfIUB64zuhsdyc8F9KHTjHWc5" class="fa fa-youtube fa-2x text-white p-3"></a>
+					<div class="margin-top-large mt-5">
+							<img class="img-fluid pt-5 px-5"src="img/tu-logo.png" height="340px" width="340px" >
+							<p class="px-5 pt-3">Tribhuvan University (TU), which was established in 1959, is the first national institution of higher education in Nepal. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur, an ancient and small town located five kilometers away from Kathmandu city centre. There are 39 central  departments and 4 research centres in TU. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur...<a href="#" class="card-link white-link">Read more</a></p>
+							<div class="text-white pt-2" align="center">
+								<a href="https://www.facebook.com/TribhuvanUniversityNp/?ref=br_rs" class="fab fa-facebook-square fa-2x text-white p-3"></a>
+								<a href="https://twitter.com/tu_information?lang=en" class="fab fa-twitter-square fa-2x text-white p-3"></a>
+								<a href="https://www.instagram.com/explore/locations/253909750/tribhuvan-university" class="fab fa-instagram fa-2x text-white p-3"></a>
+								<a href="https://en.wikipedia.org/wiki/Tribhuvan_University" class="fab fa-google-plus-square fa-2x text-white p-3"></a>
+								<a href="https://www.youtube.com/playlist?list=PLvWE6E6-vfIUB64zuhsdyc8F9KHTjHWc5" class="fab fa-youtube-square fa-2x text-white p-3"></a>
 							</div>
 					</div>
 				</div>
-				<div class="col-lg-8 col-md-12 mq">
-						<div class="row pt-5">
+				<div class="col-lg-8 col-md-12 margin-top-large">
+						<div class="row pt-5 px-5">
 							<div class="col-4">
-								<h5 class="pl-5 pt-3">TU Officials</h5>
-								<ul>
+								<h5 class="pt-3">TU Officials</h5>
 									<a href="" class="text-white">General admission division<br></a>
 									<a href="" class="text-white">Coordination divisions<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">Students welfare and directorate<br></a>
-								</ul>
 							</div>
 							<div class="col-4">
-								<h5 class="pl-5 pt-3">Institutes</h5>
-								<ul>
+								<h5 class="pt-3">Institutes</h5>
 									<a href="" class="text-white">General admission division<br></a>
 									<a href="" class="text-white">Coordination divisions<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">Students welfare and directorate<br></a>
-								</ul>
 							</div>
 							<div class="col-4">
-								<h5 class="pl-5 pt-3">Academics</h5>
-								<ul>
+								<h5 class="pt-3">Academics</h5>
 									<a href="" class="text-white">General admission division<br></a>
 									<a href="" class="text-white">Coordination divisions<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">Students welfare and directorate<br></a>
-								</ul>
 							</div>
 						</div>
 
-						<div class="row pt-2">
+						<div class="row pt-5 px-5">
 							<div class="col-4">
-								<h5 class="pl-5">Faculties</h5>
-								<ul>
+								<h5>Faculties</h5>
 									<a href="" class="text-white">General admission division<br></a>
 									<a href="" class="text-white">Coordination divisions<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">Students welfare and directorate<br></a>
-								</ul>
 							</div>
 							<div class="col-4">
-								<h5 class="pl-5">Research Centres</h5>
-								<ul>
+								<h5>Research Centres</h5>
 									<a href="" class="text-white">General admission division<br></a>
 									<a href="" class="text-white">Coordination divisions<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">Students welfare and directorate<br></a>
-								</ul>
 							</div>
 							<div class="col-4">
-								<h5 class="pl-5">Important Links</h5>
-								<ul>
+								<h5>Important Links</h5>
 									<a href="" class="text-white">General admission division<br></a>
 									<a href="" class="text-white">Coordination divisions<br></a>
 									<a href="" class="text-white">TU location<br></a>
 									<a href="" class="text-white">The university campus<br></a>
 									<a href="" class="text-white">Students welfare and directorate<br></a>
-								</ul>
 							</div>
 						</div>
-						<p>Copyright &copy; Tribhuvan University<br><a class="text-white"href="#">Powered by : Central Department of Computer Science & Information Technology </a></p>
+						<p class="pt-5 px-5">Copyright &copy; Tribhuvan University<br><a class="text-white"href="#">Powered by : Central Department of Computer Science & Information Technology </a></p>
 				</div>
 			</div>
 	</div>
-
-
+		<script src="https://kit.fontawesome.com/e35b0992d3.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

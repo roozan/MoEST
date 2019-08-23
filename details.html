@@ -4,7 +4,8 @@
 	<title>Ministry of Education Science and Technology</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="details.css">
-	<link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|PT+Sans|Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -12,94 +13,96 @@
 </head>
 <body>
 	
-	<!-- Logo and Nav Bar -->
-		<div class="d-md-flex flex-row justify-content-between pb-2">
-			<img class="img-fluid" src="img/tu-logo-cut.png">
-			<div class="d-flex flex-column align-self-center">
-		      	<ul>
-					<a href="" class="text-primary card-link"><img src="https://moe.gov.np/assets/frontend/img/en_flag.png">English</a>
-					<a href="#" class="text-primary card-link"><img src="https://moe.gov.np/assets/frontend/img/nep_flag.png">नेपाली</a>	
-			  	</ul>
-		  		<form class="form-inline px-4">
-					  	<input class="p-1" type="text" placeholder="Search the website">
-				   		<button type="button" class="btn-secondary p-1"><i class="fa fa-search"></i></button>
-			   	</form>
-			</div>
-		</div>
-		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#25396c">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-				</button>
-			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-3 mr-auto">
-			    <li class="nav-item hov-or">
-			        <a class="nav-link text-white" href="index.html">Home</a>
-			    </li>
-			    <li class="nav-item hov-or">
-			        <a class="nav-link text-white" href="">About Us</a>
-			      </li>
-			    <li class="nav-item hov-or">
-			        <a class="nav-link text-white" href="">Plans and Policies</a>
-			      </li>
-		      	<li class="nav-item hov-or">
-			        <a class="nav-link text-white" href="">Tu Officials</a>
-		      	</li>
-		      	<li class="nav-item hov-or">
-			        <a class="nav-link text-white" href="">Tu Authorities</a>
-    		  	</li>							      
-		      	<li class="nav-item hov-or">
-			        <a class="nav-link text-white" href="">Research Center</a>
-		      	</li>					      	
-			</ul>
-	  	</nav>
-	  	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#E57F35;">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav">
-					<li class="nav-item hov-bl">
-				    <a class="nav-link text-white" href="#">Institute of Engineering <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item dropdown hov-bl">
-		        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Medicine</a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Action</a>
-					          <a class="dropdown-item" href="#">Another action</a>
-					          <div class="dropdown-divider"></div>
-					          <a class="dropdown-item" href="#">Something else here</a>
-				        </div>
-			    	</li>
-			    	<li class="nav-item dropdown hov-bl">
-			        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Engineering</a>
-					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	<!-- Navbar -->
+		<div class="d-lg-flex org flex-row ">
+			<img src="img/tu-logo-cut.png" width="320px" style="z-index:2">
+			<div class="d-flex flex-column flex-fill">
+				<nav class="navbar navbar-expand-lg navbar-dark rel" style="background-color:#25396c">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentFirst" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					 <div class="collapse navbar-collapse" id="navbarSupportedContentFirst">
+						<ul class="navbar-nav nav mg">
+						    <li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="index.html">Home</a>
+						    </li>
+						    <li class="nav-item hov-or">
+						        <a href="details.html" class="nav-link text-white" href="">About Us</a>
+						      </li>
+						    <li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Plans and Policies</a>
+						      </li>
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Tu Officials</a>
+					      	</li>
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Tu Authorities</a>
+			    		  	</li>							      
+					      	<li class="nav-item hov-or">
+						        <a class="nav-link text-white" href="">Research Center</a>
+					      	</li>		
+						</ul>
+						<ul class="ml-auto navbar-nav">
+							<li class="px-3 py-2">
+								<form id="demo-2">
+									<input type="search" class="search-anim">
+								</form>
+							</li>
+			  			</ul>
+						<a href="" class="text-white card-link"><img src="https://moe.gov.np/assets/frontend/img/en_flag.png">English</a>
+						<a href="#" class="text-white card-link"><img src="https://moe.gov.np/assets/frontend/img/nep_flag.png">नेपाली</a>	
+					</div>
+			  	</nav>
+			  	<nav class="navbar navbar-expand-lg navbar-dark rel" style="background-color:#E57F35">
+			  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentSecond" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					  <div class="collapse navbar-collapse" id="navbarSupportedContentSecond">
+					    <ul class="nav navbar-nav mt-2 mt-lg-0">
+					      	<li class="nav-item hov-bl">
+					    		<a class="nav-link text-white" href="https://ioe.edu.np/">Institute of Engineering <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item dropdown hov-bl">
+				        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Medicine</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							          <a class="dropdown-item" href="#">Action</a>
+							          <a class="dropdown-item" href="#">Another action</a>
+							          <div class="dropdown-divider"></div>
+							          <a class="dropdown-item" href="#">Something else here</a>
+						        </div>
+					    	</li>
+					    	<li class="nav-item dropdown hov-bl">
+					        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">Institute of Engineering</a>
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								          <a class="dropdown-item" href="#">Action</a>
+								          <a class="dropdown-item" href="#">Another action</a>
+								          <div class="dropdown-divider"></div>
+								          <a class="dropdown-item" href="#">Something else here</a>
+							        </div>
+					    	</li>
+					     	<li class="nav-item dropdown hov-bl">
+						        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institute of Engineering</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						          <a class="dropdown-item" href="#">Action</a>
 						          <a class="dropdown-item" href="#">Another action</a>
 						          <div class="dropdown-divider"></div>
 						          <a class="dropdown-item" href="#">Something else here</a>
-					        </div>
-			    	</li>
-			     	<li class="nav-item dropdown hov-bl">
-				        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institute of Engineering</a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="#">Action</a>
-				          <a class="dropdown-item" href="#">Another action</a>
-				          <div class="dropdown-divider"></div>
-				          <a class="dropdown-item" href="#">Something else here</a>
-				        </div>
-				    </li>
-				    <li class="nav-item dropdown hov-bl">
-		        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">TU Officials</a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Action</a>
-					          <a class="dropdown-item" href="#">Another action</a>
-					          <div class="dropdown-divider"></div>
-					          <a class="dropdown-item" href="#">Something else here</a>
-				        </div>
-			    	</li>	    	
-				</ul>
+						        </div>
+						    </li>
+						    <li class="nav-item dropdown hov-bl">
+				        	<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 	aria-expanded="false">TU Officials</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							          <a class="dropdown-item" href="#">Action</a>
+							          <a class="dropdown-item" href="#">Another action</a>
+							          <div class="dropdown-divider"></div>
+							          <a class="dropdown-item" href="#">Something else here</a>
+						        </div>
+					    	</li>	  
+					    </ul>
+				  	</div>
+				</nav>
 			</div>
-		</nav>
+		</div>
 			
 		<!-- Carousel and Text -->
 	   		<img src="img/details-img.jpg" class="img-custom w-100" alt="...">
@@ -107,7 +110,7 @@
 	         		<h1>News Single</h1>
 	         		<h5>
 						<a href="index.html" class="text-white op">Home</a> > 
-						<a href="" class="text-white op">News</a>>
+						<a href="" class="text-white op">News</a> >
 						<span class="text-warning">News Single</span>
 					</h5>
 				</div>
@@ -119,14 +122,32 @@
 					</h4>
 				</div>
 
+				
 	<!-- Description Article Section -->
-		<div class="pt-5 form-inline px-5">
-			<h5 class="px-3">Published on <span class="text-warning">3 May, 2019 </span></h5>
-			<h5 class="px-3">Published on <span class="text-warning">31 April, 2019 </span></h5>
-			<h5 class="px-3">Published on <span class="text-warning">20 December, 2019 </span></h5>
+		
+		<h1 class="pt-5 px-5 display-4">Promoting Inclusion and Access for Young Learners</h1>
+		<div class="d-flex flex-row px-5 justify-content-around col-5">
+			<div align="center">
+				<i class="fas fa-user-edit col orng"></i>
+				<a href="" class="text-dark">Arturito Roman</a>
+			</div>
+			<div class="align-self-center">
+				<span class="line"></span>
+			</div>
+			<div align="center">
+				<i class="fas fa-eye col orng"></i>
+				<h6>3,019</h6>
+			</div>
+			<div class="align-self-center">
+				<span class="line"></span>
+			</div>
+			<div align="center">
+				<i class="fas fa-calendar-day col orng"></i>
+				<h6> 3 May, 2019 </h6>
+			</div>
 		</div>
-		<h1 class="px-5">Promoting Inclusion and Access <br>for Young Learners</h1>
-		<img src="img/article-2.jpeg" class="w-100 img-custom">
+		<hr class="mt-0" style="height:0.1px;background-color:black">
+		<img src="img/article-2.jpeg" class="w-100 img-custom pt-3">
 		<p class="container-fluid px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -160,7 +181,7 @@
 	<!-- Related Articles -->
 
 		<div class="container-fluid px-5">
-			<div class="d-flex justify-content-between">
+			<div class="d-flex justify-content-between pb-2">
 		        	<div>
 		        		<h3>Related Articles</h3>
 		        	</div>
@@ -172,7 +193,7 @@
 			<div id="articles" class="carousel slide" data-ride="carousel">		
 				<div class="carousel-inner">	
 					<div class="carousel-item active">
-						<div class="row py-3">
+						<div class="row">
 					  		<div class="col-12 col-sm-4 mb-2">
 							  	<div class="card text-left h-100">
 								  	<img class="card-img-top" src="img/art-4.jpeg" alt="Card image cap">
@@ -206,7 +227,7 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<div class="row py-3">
+						<div class="row">
 					  		<div class="col-12 col-sm-4 mb-2">
 							  	<div class="card text-left h-100">
 								  	<img class="card-img-top" src="img/article-1.jpeg" alt="Card image cap">
@@ -243,22 +264,86 @@
 			</div>
 		</div>
 
-		<!-- Footer Section -->
-		<div class="container-fluid px-5" style="background-color:#25396c ">
-			<div class="row">
-				<div class="col-md-5 col-12 pb-2">
-					<div class="d-flex flex-row">
-						<input class="p-2 flex-column" type="text" placeholder="Subscribe to our newsletter" style="width:17em">
-				   		<button type="button" class="btn-warning p-2">Register</button>
+		
+		<!-- Footer -->
+
+		<div class="footer-container container-fluid">
+			<div class="row text-white">
+				<div class="col-lg-4 col-md-12">
+					<div class="margin-top-large mt-5">
+							<img class="img-fluid pt-5 px-5"src="img/tu-logo.png" height="340px" width="340px" >
+							<p class="px-5 pt-3">Tribhuvan University (TU), which was established in 1959, is the first national institution of higher education in Nepal. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur, an ancient and small town located five kilometers away from Kathmandu city centre. There are 39 central  departments and 4 research centres in TU. The Central Administrative Office and the  Central  Campus of the university are located on the north eastern facade of Kirtipur...<a href="#" class="card-link white-link">Read more</a></p>
+							<div class="text-white pt-2" align="center">
+								<a href="https://www.facebook.com/TribhuvanUniversityNp/?ref=br_rs" class="fab fa-facebook-square fa-2x text-white p-3"></a>
+								<a href="https://twitter.com/tu_information?lang=en" class="fab fa-twitter-square fa-2x text-white p-3"></a>
+								<a href="https://www.instagram.com/explore/locations/253909750/tribhuvan-university" class="fab fa-instagram fa-2x text-white p-3"></a>
+								<a href="https://en.wikipedia.org/wiki/Tribhuvan_University" class="fab fa-google-plus-square fa-2x text-white p-3"></a>
+								<a href="https://www.youtube.com/playlist?list=PLvWE6E6-vfIUB64zuhsdyc8F9KHTjHWc5" class="fab fa-youtube-square fa-2x text-white p-3"></a>
+							</div>
 					</div>
 				</div>
-				<div class="col-md-7 col-12">
-					<p class="text-white">Insights is Picwik University's thought leadership publication for sharing knowledge on management, technology and innovation.</p>
-					<a href="" class="op text-white">Take me there</a>
+				<div class="col-lg-8 col-md-12 margin-top-large">
+						<div class="row pt-5 px-5">
+							<div class="col-4">
+								<h5 class="pt-3">TU Officials</h5>
+									<a href="" class="text-white">General admission division<br></a>
+									<a href="" class="text-white">Coordination divisions<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">Students welfare and directorate<br></a>
+							</div>
+							<div class="col-4">
+								<h5 class="pt-3">Institutes</h5>
+									<a href="" class="text-white">General admission division<br></a>
+									<a href="" class="text-white">Coordination divisions<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">Students welfare and directorate<br></a>
+							</div>
+							<div class="col-4">
+								<h5 class="pt-3">Academics</h5>
+									<a href="" class="text-white">General admission division<br></a>
+									<a href="" class="text-white">Coordination divisions<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">Students welfare and directorate<br></a>
+							</div>
+						</div>
+
+						<div class="row pt-5 px-5">
+							<div class="col-4">
+								<h5>Faculties</h5>
+									<a href="" class="text-white">General admission division<br></a>
+									<a href="" class="text-white">Coordination divisions<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">Students welfare and directorate<br></a>
+							</div>
+							<div class="col-4">
+								<h5>Research Centres</h5>
+									<a href="" class="text-white">General admission division<br></a>
+									<a href="" class="text-white">Coordination divisions<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">Students welfare and directorate<br></a>
+							</div>
+							<div class="col-4">
+								<h5>Important Links</h5>
+									<a href="" class="text-white">General admission division<br></a>
+									<a href="" class="text-white">Coordination divisions<br></a>
+									<a href="" class="text-white">TU location<br></a>
+									<a href="" class="text-white">The university campus<br></a>
+									<a href="" class="text-white">Students welfare and directorate<br></a>
+							</div>
+						</div>
+						<p class="pt-5 px-5">Copyright &copy; Tribhuvan University<br><a class="text-white"href="#">Powered by : Central Department of Computer Science & Information Technology </a></p>
 				</div>
 			</div>
-		</div>
+	</div>
 
+	
+
+		<script src="https://kit.fontawesome.com/e35b0992d3.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

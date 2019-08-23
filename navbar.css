@@ -1,0 +1,31 @@
+@media only screen and (min-width: 990px) {
+	.rel{z-index:1;	transform:translateX(-5%);} 
+	.org{background-color:#E57F35;} 
+	.mg{margin-left:2.4em;}
+}
+.hov-or:hover{
+  background-color:#E57F35;
+}
+.hov-bl:hover{
+  background-color:#25396c;
+}
+.search-anim {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	outline:none;
+	width:15px;
+	padding-left: 10px;
+	cursor: pointer;
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 4px;
+	border: solid 0.2px #ccc;
+	/*for rounded*/
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+.search-anim:focus {
+	width: 120px;
+	padding-left: 26px;
+	color: #000;
+	background-color: #fff; 	
+}
